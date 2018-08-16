@@ -494,24 +494,24 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Donna_Dubinsky"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Shafi Goldwasser",
+    year:1993,
+    dob:1958,
+    dod:null,
+    info:"is an American-Israeli computer scientist and winner of the Turing Award in 2012. She is a professor of electrical engineering and computer science at MIT, a professor of mathematical sciences at the Weizmann Institute of Science, Israel, co-founder and chief scientist of Duality Technologies and the director of the Simons Institute for the Theory of Computing in Berkeley, CA.",
+    contribution:"a theoretical computer scientist, is a two-time recipient of the Gödel Prize for research on complexity theory, cryptography and computational number theory, and the invention of zero-knowledge proofs.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/8/84/Shafi_Goldwasser.JPG",
+    wiki:"https://en.wikipedia.org/wiki/Shafi_Goldwasser"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Barbara Liskov",
+    year:1993,
+    dob:1939,
+    dod:null,
+    info:"is an American computer scientist[2] who is an Institute Professor at the Massachusetts Institute of Technology and Ford Professor of Engineering in its School of Engineering's electrical engineering and computer science department.[3] She was one of the first women to be granted a doctorate in computer science in the United States and is a Turing Award winner who developed the Liskov substitution principle.",
+    contribution:"together with Jeannette Wing, developed the Liskov substitution principle. Liskov was also the winner of the Turing Prize in 2008.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/1024px-Barbara_Liskov_MIT_computer_scientist_2010.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Barbara_Liskov"
   },
   {
     name:"",
