@@ -112,6 +112,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Grace_Hopperv"
   },
   {
+    name:"Evelyn Boyd Granville",
+    year: 1949,
+    dob:1924,
+    dod:,
+    info:"was the second African-American woman to receive a Ph.D. in mathematics from an American University; she earned it in 1949 from Yale University (she attended Smith College before Yale). She performed pioneering work in the field of computing.",
+    contribution:"was the second African-American woman in the U.S. to receive a PhD in mathematics. From 1956 to 1960, she worked for IBM on the Project Vanguard and Project Mercury space programs, analyzing orbits and developing computer procedures.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/5/55/Granville_evelyn.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Evelyn_Boyd_Granville"
+  },
+  {
     name:"",
     year:,
     dob:,
