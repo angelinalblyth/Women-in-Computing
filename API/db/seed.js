@@ -514,14 +514,14 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Barbara_Liskov"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
+    name:"Sally Floyd",
+    year:1994,
+    dob:1953,
+    dod:null,
+    info:"is an American computer scientist. Formerly associated with the International Computer Science Institute in Berkeley, California, she retired in 2009. She is best known for her work on Internet congestion control, and was in 2007 one of the top-ten most cited researchers in computer science.",
+    contribution:"is known for her work on Transmission Control Protocol.",
     image:"",
-    wiki:""
+    wiki:"https://en.wikipedia.org/wiki/Sally_Floyd"
   },
   {
     name:"",
