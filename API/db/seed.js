@@ -1,4 +1,5 @@
-use timelinedb;
+use timelinedb
+db.dropDatabase()
 
 db.timeline_women.insert([
   {
@@ -38,28 +39,28 @@ db.timeline_women.insert([
     dod:1945,
     info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women 'computers' used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand. Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
     contribution:"",
-    image:"",
-    wiki:""
+    image:"http://monovisions.com/wp-content/uploads/2016/02/american-women-in-world-war-ii-vintage-photos-06-1040x440.jpg",
+    wiki:"https://en.wikipedia.org/wiki/American_women_in_World_War_II"
   },
   {
     name:"",
     year:1943,
-    dob:null,
-    dod:null,
+    dob: null,
+    dod: null,
     info:"Women worked as WREN Colossus operators during WW2 at Bletchley Park.",
     contribution:"",
-    image:"",
-    wiki:""
+    image:"https://i.pinimg.com/originals/6c/83/87/6c83870098d9c137c3ef32e6fc10d1f3.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Bletchley_Park"
   },
   {
     name:"",
     year:1943,
-    dob:null,
-    dod:null,
-    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers. This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
+    dob: null,
+    dod: null,
+    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
     contribution:"",
-    image:"",
-    wiki:""
+    image:"https://en.wikipedia.org/wiki/Manhattan_Project#/media/File:Y12_Calutron_Operators.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Calutron_Girls"
   },
   {
     name:"Gertrude Blanch",
@@ -78,8 +79,8 @@ db.timeline_women.insert([
     dod:null,
     info:"",
     contribution:"were the regularly working programmers of the ENIAC. Adele Goldstine, also involved in the programming, wrote the program manual for the ENIAC.",
-    image:"",
-    wiki:""
+    image:"https://i.pinimg.com/originals/d7/7b/b8/d77bb8e85c96ca7377bf08a73b152932.jpg",
+    wiki:"https://en.wikipedia.org/wiki/ENIAC"
   },
   {
     name:"Irma Wyman",
@@ -88,7 +89,7 @@ db.timeline_women.insert([
     dod:2015,
     info:"was an early computer engineer and the first woman to become vice president of Honeywell, Inc. She was a systems thinking tutor and was the first female CIO of Honeywell.",
     contribution:"worked on a missile guidance project at the Willow Run Research Center. To calculate trajectory, they used mechanical calculators. In 1947–48, she visited the U.S. Naval Proving Ground where Grace Hopper was working on similar problems and discovered they were using a prototype of a programmable Mark II computer.",
-    image:"",
+    image:"http://stmedia.stimg.co/ows_144840862781762.jpg?w=2000",
     wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
   },
   {
@@ -98,7 +99,7 @@ db.timeline_women.insert([
     dod:null,
     info:"wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London. She helped design three different machines including the ARC, SEC, and APE(X)C.",
     contribution:"is credited with writing the assembly language for the ARC2 computer.",
-    image:"",
+    image:"http://www.computinghistory.org.uk/userdata/images/large/31/28/product-83128.jpg",
     wiki:"https://en.wikipedia.org/wiki/Kathleen_Booth"
   },
   {
@@ -138,7 +139,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is recognised as being the first female commercial programmer, she was the first woman to work on the LEO computers.Her father, William Blood, believed in women's education and her sister worked in microbiology and bacteriology. Unlike her sister, and unlike others in computing, she did not have a background in maths or science.The National Museum of Computing documents her contribution.She graduated with a degree in French from Queen Mary University in London.She later moved to Surrey, when her father became a Medical Officer for the catering company, J. Lyons and Co. He was clear that women should have their own careers and interests.",
     contribution:"was one of the first programmers on, and was the first female programmer on LEO, the first business computer. She went on to work on LEO II and LEO III.",
-    image:"",
+    image:"https://www.bl.uk/voices-of-science/britishlibrary/~/media/bl/websites/vos/images/interviewees/021i-c1379x0016xx-0001a1.jpg?backgroundColor=000000&as=false",
     wiki:"https://en.wikipedia.org/wiki/Mary_Coombs"
   },
   {
@@ -148,8 +149,8 @@ db.timeline_women.insert([
     dod:null,
     info:"",
     contribution:"Orbital calculations for the United States' Explorer 1 satellite were solved by the NASA Jet Propulsion Laboratory's all-female 'computers', many of whom were recruited out of high school. Mechanical calculators were supplemented with logarithmic calculations performed by hand.",
-    image:"",
-    wiki:""
+    image:"https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/computers.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Women_in_NASA"
   },
   {
     name:"Dana Ulery",
@@ -188,7 +189,7 @@ db.timeline_women.insert([
     dod:null,
     info:"was the first person to start a computer dating service in 1964.",
     contribution:"was a computer dating pioneer who started the first computer dating service in England, in 1964. Ball's computer dating service also pre-dated the earliest American computer dating services, like Operation Match at Harvard.",
-    image:"",
+    image:"http://www.hamhigh.co.uk/polopoly_fs/1.3979028.1425477499!/image/image.jpg_gen/derivatives/landscape_630/image.jpg",
     wiki:"https://en.wikipedia.org/wiki/Joan_Ball"
   },
   {
@@ -208,7 +209,7 @@ db.timeline_women.insert([
     dod: 1985,
     info:"was an American Roman Catholic religious sister, educator and pioneer in computer science. She was the first woman to earn a Ph.D. in computer science in the United States.",
     contribution:"became the first American woman to earn a Ph.D. in Computer Science in 1965.[26] Her thesis was titled 'Inductive Inference on Computer Generated Patterns.'",
-    image:"",
+    image:"http://www.computinghistory.org.uk/userdata/images/large/67/14/product-96714.jpg",
     wiki:"https://en.wikipedia.org/wiki/Mary_Kenneth_Keller"
   },
   {
@@ -218,7 +219,7 @@ db.timeline_women.insert([
     dod: 2006,
     info:"was an American electronics engineer and computer scientist born in 1916. She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
     contribution:"was appointed Chief of the Office of Computer Information in 1966, part of the Institute for Computer Science and Technology of NBS. She held the post until 1975. She was also actively involved in the Association for Computing Machinery (ACM) and served as the first Secretary for the American Federation of Information Processing Societies (AFIPS)",
-    image:"",
+    image:"https://www.women.cs.cmu.edu/ada/Resources/Women/pictures/margaret_fox.jpg",
     wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
   },
   {
@@ -234,11 +235,11 @@ db.timeline_women.insert([
   {
     name:"Margaret Hamilton",
     year: 1969,
-    dob:null,
+    dob:1936,
     dod:null,
     info:"was an American electronics engineer and computer scientist born in 1916.She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
     contribution:"was in late 1960s Director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for the Apollo space program. MIT work prevented an abort of the Apollo 11 moon landing by using robust architecture. Later, she was awarded the NASA Exceptional Space Act Award for her scientific and technical contributions.",
-    image:"",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Margaret_Hamilton_1995.jpg/440px-Margaret_Hamilton_1995.jpg",
     wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
   },
   {
@@ -248,7 +249,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American mathematician notable for inventing a computerized telephone switching method which 'revolutionized modern communication' according to several reports.It prevented system overloads by monitoring call center traffic and prioritizing tasks on phone switching systems to enable more robust service during peak calling times.At Bell Laboratories where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
     contribution:"is an American mathematician notable for inventing a computerized telephone switching method which developed modern communication according to several reports. At Bell Laboratories, where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
-    image:"",
+    image:"https://imgix.ranker.com/user_node_img/48/951485/original/erna-schneider-hoover-all-people-photo-u1?w=280&h=280&fit=crop&crop=faces&q=50&fmt=jpg",
     wiki:"https://en.wikipedia.org/wiki/Erna_Schneider_Hoover"
   },
   {
@@ -258,8 +259,8 @@ db.timeline_women.insert([
     dod:null,
     info:"",
     contribution:"became the first woman software developer ever hired by Procter & Gamble/Ivorydale, a 13,000-employee complex that included their R&D center. Her position as a software developer also made her the first woman ever hired into a management-level position there.",
-    image:"",
-    wiki:""
+    image:"https://static1.squarespace.com/static/572a35ec22482ec861189ccc/t/595c873217bffc06e057711f/1499236163626/?format=500w",
+    wiki:"http://eecs.oregonstate.edu/people/burnett-margaret"
   },
   {
     name:"Mary Shaw",
@@ -380,17 +381,5 @@ db.timeline_women.insert([
     contribution:"was the game designer and programmer for Atari 2600 games Dodge 'Em and Warlords.",
     image:"",
     wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
-  },
-  {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
-  },
+  }
 ])
-
-/
