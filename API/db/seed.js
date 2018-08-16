@@ -172,6 +172,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Jean_E._Sammet"
   },
   {
+    name:"Dame Stephanie 'Steve' Shirley",
+    year:1962,
+    dob:1933,
+    dod:,
+    info:"is a British information technology pioneer, businesswoman and philanthropist.",
+    contribution:"founded the UK software company F.I. She was concerned with creating work opportunities for women with dependents, and predominantly employed women, only 3 out of 300-odd programmers were male, until that became illegal. She adopted the name 'Steve' to help her in the male-dominated business world. From 1989 to 1990, she was president of the British Computer Society. In 1985, she was awarded a Recognition of Information Technology Award.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/e1/Dame_Stephanie_Shirley_-_2013.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Steve_Shirley"
+  },
+  {
     name:"",
     year:,
     dob:,
