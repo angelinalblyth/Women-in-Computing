@@ -476,22 +476,22 @@ db.timeline_women.insert([
     year:1989,
     dob:null,
     dod:null,
-    info:"is an American businesswoman who played an integral role in the development of personal digital assistants (PDAs) serving as CEO of Palm, Inc. and co-founding Handspring with Jeff Hawkins in 1995.Dubinsky co-founded Numenta in 2005 with Hawkins and Dileep George, based in Redwood City, CA. Numenta was founded to develop machine intelligence based on the principles of the neocortex. Dubinsky currently serves as CEO and board chair of Numenta.
-    She served on the board of Yale University from 2006-2018, including two years as Senior Fellow.
-    Fortune nominated her, together with Hawkins, to the Innovators Hall of Fame, while TIME named the pair as part of its Digital 50 in 1999 for their contribution to the development of the PDA.",
+    info:"",
     contribution:"professor of Computer Science at the Vrije Universiteit in Amsterdam, is one of the founder of NLnet, the first Internet service provider in the Netherlands.",
     image:"",
-    wiki:"https://en.wikipedia.org/wiki/Donna_Dubinsky"
+    wiki:""
   },
   {
     name:"Donna Dubinsky",
     year:1992,
     dob:1995,
     dod:null,
-    info:"",
-    contribution:"",
+    info:"is an American businesswoman who played an integral role in the development of personal digital assistants (PDAs) serving as CEO of Palm, Inc. and co-founding Handspring with Jeff Hawkins in 1995.[2] Dubinsky co-founded Numenta in 2005 with Hawkins and Dileep George, based in Redwood City, CA. Numenta was founded to develop machine intelligence based on the principles of the neocortex. Dubinsky currently serves as CEO and board chair of Numenta.
+    She served on the board of Yale University from 2006-2018, including two years as Senior Fellow.
+    Fortune nominated her, together with Hawkins, to the Innovators Hall of Fame, while TIME named the pair as part of its Digital 50 in 1999 for their contribution to the development of the PDA.",
+    contribution:"CEO and co-founder of Palm, Inc., co-founder of Handspring, co-founder of Numenta, Harvard Business School's Alumni Achievement Award winner for 'introducing the first successful personal digital assistant (PDA) and who is now developing a computer memory system modeled after the human brain'.",
     image:"",
-    wiki:""
+    wiki:"https://en.wikipedia.org/wiki/Donna_Dubinsky"
   },
   {
     name:"",
