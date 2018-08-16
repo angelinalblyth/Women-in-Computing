@@ -242,6 +242,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
   },
   {
+    name:"Erna Schneider Hoover",
+    year: 1971,
+    dob: 1926,
+    dod:,
+    info:"is an American mathematician notable for inventing a computerized telephone switching method which 'revolutionized modern communication' according to several reports.It prevented system overloads by monitoring call center traffic and prioritizing tasks on phone switching systems to enable more robust service during peak calling times.At Bell Laboratories where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
+    contribution:"is an American mathematician notable for inventing a computerized telephone switching method which developed modern communication according to several reports. At Bell Laboratories, where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Erna_Schneider_Hoover"
+  },
+  {
     name:"",
     year:,
     dob:,
