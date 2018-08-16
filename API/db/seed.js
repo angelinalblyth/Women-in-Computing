@@ -15,10 +15,10 @@ db.timeline_women.insert([
     name:"Henrietta Swan Leavitt",
     year:1893,
     dob:1868,
-    dod:1921
-    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a computer in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies. She explained her discovery: A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods."
-    contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law)."
-    image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg"
+    dod:1921,
+    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a computer in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies. She explained her discovery: A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods.",
+    contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law).",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg",
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
   },
   {
