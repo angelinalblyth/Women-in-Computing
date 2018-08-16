@@ -116,7 +116,7 @@ db.timeline_women.insert([
     year: 1949,
     dob:1924,
     dod:,
-    info:"was the second African-American woman to receive a Ph.D. in mathematics from an American University; she earned it in 1949 from Yale University (she attended Smith College before Yale). She performed pioneering work in the field of computing.",
+    info:"was the second African-American woman to receive a Ph.D. in mathematics from an American University she earned it in 1949 from Yale University (she attended Smith College before Yale). She performed pioneering work in the field of computing.",
     contribution:"was the second African-American woman in the U.S. to receive a PhD in mathematics. From 1956 to 1960, she worked for IBM on the Project Vanguard and Project Mercury space programs, analyzing orbits and developing computer procedures.",
     image:"https://upload.wikimedia.org/wikipedia/commons/5/55/Granville_evelyn.jpg",
     wiki:"https://en.wikipedia.org/wiki/Evelyn_Boyd_Granville"
@@ -219,7 +219,27 @@ db.timeline_women.insert([
     info:"was an American electronics engineer and computer scientist born in 1916. She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
     contribution:"was appointed Chief of the Office of Computer Information in 1966, part of the Institute for Computer Science and Technology of NBS. She held the post until 1975. She was also actively involved in the Association for Computing Machinery (ACM) and served as the first Secretary for the American Federation of Information Processing Societies (AFIPS)",
     image:"",
-    wiki:""
+    wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
+  },
+  {
+    name:"Vera Molnár",
+    year: 1968,
+    dob:1924,
+    dod:,
+    info:"is a French media artist of Hungarian origin. She is considered a pioneer of computer art.",
+    contribution:"is one of the pioneers of computer and algorithmic arts. In 1968 she began working with computers, where she began to create algorithmic drawings based on simple geometric shapes geometrical themes.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Vera_Moln%C3%A1r_%281996%29.png",
+    wiki:"https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r"
+  },
+  {
+    name:"Margaret Hamilton",
+    year: 1969,
+    dob:,
+    dod:,
+    info:"was an American electronics engineer and computer scientist born in 1916.She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
+    contribution:"was in late 1960s Director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for the Apollo space program. MIT work prevented an abort of the Apollo 11 moon landing by using robust architecture. Later, she was awarded the NASA Exceptional Space Act Award for her scientific and technical contributions.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
   },
   {
     name:"",
