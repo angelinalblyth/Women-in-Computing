@@ -20,18 +20,18 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
   const db = client.db("timelinedb");
 	server.set("db", db);
 
-  server.get('/timeline', function(req, res){
-    const timelineCollection = db.collection('timeline_women');
-    timelineCollection.find().toArray(function(err, allTimeline){
-      if(err){
-        console.log(err);
-        res.status(500);
-        res.send();
-      }
-
-      res.json(allTimeline);
-    });
-  });
+  // server.get('/timeline', function(req, res){
+  //   const timelineCollection = db.collection('timeline_women');
+  //   timelineCollection.find().toArray(function(err, allTimeline){
+  //     if(err){
+  //       console.log(err);
+  //       res.status(500);
+  //       res.send();
+  //     }
+  //
+  //     res.json(allTimeline);
+  //   });
+  // });
 
   console.log('Connected to database');
   // collection name timelinedb_women

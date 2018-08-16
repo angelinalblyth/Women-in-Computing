@@ -2,9 +2,9 @@ const express = require('express');
 const timelineRouter = express.Router();
 
 timelineRouter.get("/", function(req, res){
-  const db = req.server.get("db");
+  const db = req.app.get("db");
 
-  const timeline = db.collection("timelinedb_women");
+  const timeline = db.collection("timeline_women");
 
   timeline.find().toArray(function(err, timelineObjects){
     if(err) {
