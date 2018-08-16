@@ -33,6 +33,46 @@ db.timeline_women.insert([
   },
   {
     name:"",
+    year:1940,
+    dob:1943,
+    dod:1945,
+    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women "computers" used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:1943,
+    dob:,
+    dod:,
+    info:"Women worked as WREN Colossus operators during WW2 at Bletchley Park.",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:1943,
+    dob:,
+    dod:,
+    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"Gertrude Blanch",
+    year:1943,
+    dob:1896,
+    dod:1996,
+    info:"was an American mathematician who did pioneering work in numerical analysis and computation. She was a leader of the Mathematical Tables Project in New York from its beginning. She worked later as the assistant director and leader of the Numerical Analysis at UCLA computing division and was head of mathematical research for the Aerospace Research Laboratory at Wright-Patterson Air Force Base in Dayton, Ohio.",
+    contribution:"led the Mathematical Tables Project group from 1938 to 1948. During World War II, the project operated as a major computing office for the U.S. government and did calculations for the Office of Scientific Research and Development, the Army, the Navy, the Manhattan Project and other institutions.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Gertrude_blanch.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Gertrude_Blanch"
+  },
+  {
+    name:"",
     year:,
     dob:,
     dod:,
@@ -43,10 +83,6 @@ db.timeline_women.insert([
   },
 ])
 
-// * 1926: [[Grete Hermann]] (1901–1984) published the foundational paper for [[computer algebra system|computerized algebra]]. It was her doctoral thesis, titled "The Question of Finitely Many Steps in Polynomial Ideal Theory", and published in Mathematische Annalen.<ref>{{cite journal| author=Grete Hermann| title=Die Frage der endlich vielen Schritte in der Theorie der Polynomideale| journal=[[Mathematische Annalen]]| year=1926| volume=95| pages=736–788|url=http://gdz.sub.uni-goettingen.de/index.php?id=11&PPN=PPN235181684_0095&DMDID=DMDLOG_0044&L=1| doi=10.1007/bf01206635}}</ref>
-// * 1940s: American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women "computers" used a [[differential analyzer]] in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.<ref>Gumbrecht, Jamie (8 February 2011). [https://www.webcitation.org/67YOtYd7s?url=http://edition.cnn.com/2011/TECH/innovation/02/08/women.rosies.math/ "Rediscovering WWII's female 'computers'"]. CNN. Archived from [http://edition.cnn.com/2011/TECH/innovation/02/08/women.rosies.math the original] on 10 May 2012.</ref> [[Phyllis Fox]] ran a differential analyzer single-handedly, with differential equations are her program specification.
-// * 1943: Women worked as [[Colossus computer|WREN Colossus operators]] during [[World War II|WW2]] at [[Bletchley Park]].<ref>{{cite book|last1=Copeland|first1=Jack B.|title=Colossus: The Secrets of Bletchley Park's Code Breaking Computers|date=2010|publisher=Oxford University Press}}</ref>
-// * 1943: Wives of scientists working on the [[Manhattan Project#Personnel|Manhattan Project]] with mathematical training were hired as [[human computers]] to work on the [[ENIAC]] and [[MANIAC I]] computers.<ref>{{cite book|last1=Pearson Jr.|first1=Willie|last2=Frehill|first2=Lisa M.|last3=McNeely|first3=Connie L.|last4= DiSalvo| first4=Betsy|title=Advancing Women in Science: An International Perspective|date=2015|publisher=Springer|isbn=9783319086293|pages=265–267}}</ref> This included [[Klara Dan von Neumann]], [[Augusta H. Teller]], and [[Adele Goldstine]].<ref>{{cite book|last1=Howes|first1=Ruth H.|last2=Herzenberg|first2=Caroline L.|title=Their Day in the Sun: Women of the Manhattan Project|date=2003|publisher=Temple University Press|location=Philadelphia, Pa.|isbn=9781592131921|pages=99–100}}</ref><ref>{{cite book|last1=Haigh|first1=Thomas|last2=Priestley|first2=Mark|last3=Rope|first3=Crispin|title=ENIAC in Action: Making and Remaking the Modern Computer|date=2016|publisher=MIT Press|isbn=9780262033985|pages=157–158}}</ref>
 // * 1943: [[Gertrude Blanch]] (1897–1996) led the [[Mathematical Tables Project]] group from 1938 to 1948. During World War II, the project operated as a major computing office for the U.S. government and did calculations for the [[Office of Scientific Research and Development]], the Army, the Navy, the Manhattan Project and other institutions.<ref>{{cite journal|last=Grier|first=David Alan|title=The Math Tables Project of the Work Projects Administration: The Reluctant Start of the Computing Era|journal=IEEE Ann. Hist. Comput.|year=1998|volume=20|issue=3|pages=33–50|doi=10.1109/85.707573|issn=1058-6180}}</ref>
 // * 1946: [[Jean Bartik|Betty Jennings]], [[Betty Holberton|Betty Snyder]], [[Frances Spence]], [[Kathleen Antonelli|Kay McNulty]], [[Marlyn Meltzer|Marlyn Wescoff]], and [[Ruth Teitelbaum|Ruth Lichterman]] were the regularly working programmers of the [[ENIAC]]. [[Adele Goldstine]], also involved in the programming, wrote the program manual for the [[ENIAC]].<ref>{{cite journal|last1=Light|first1=Jennifer S.|title=When Computers Were Women|journal=Technology and Culture|date=1999|volume=40|issue=3|pages=469, 455–483}}</ref>[[File:Montse Maritxalar.jpg|thumb|right|261x261px|Computer scientist [[Montse Maritxalar]] of the University of the Basque Country in 2008.]]
 // * 1947: [[Irma Wyman]] worked on a missile guidance project at the [[Willow Run Research Center]]. To calculate trajectory, they used mechanical calculators. In 1947–48, she visited the U.S. Naval Proving Ground where [[Grace Hopper]] was working on similar problems and discovered they were using a prototype of a programmable [[Harvard Mark II|Mark II]] computer.<ref>{{ cite web | title= Irma Wyman | work= Michigan Engineer, Spring 2010: Women in Engineering | url=http://www.engin.umich.edu/newscenter/pubs/engineer/10S/womenineng/wyman.html | accessdate= 2011-05-28}}</ref>
