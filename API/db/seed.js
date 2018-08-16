@@ -7,7 +7,7 @@ db.timeline_women.insert([
     dob:1815,
     dod:1851,
     info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
-    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a "computing machine" and the first computer programmer",
+    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a 'computing machine' and the first computer programmer",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
     wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
   },
@@ -16,10 +16,20 @@ db.timeline_women.insert([
     year:1893,
     dob:1868,
     dod:1921
-    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a "computer" in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies.[1] She explained her discovery: 'A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods.'"
+    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a 'computer' in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies.[1] She explained her discovery: 'A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods.'"
     contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law)."
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg"
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    name:"Grete Hermann",
+    year:1926,
+    dob:1901,
+    dod:1984,
+    info:"was a German mathematician and philosopher noted for her work in mathematics, physics, philosophy and education. She is noted for her early philosophical work on the foundations of quantum mechanics, and is now known most of all for an early, but long-ignored critique of a no-hidden-variable theorem by John von Neumann. It has been suggested that, had her critique not remained nearly unknown for decades, the historical development of quantum mechanics might have been very different.",
+    contribution:"published the foundational paper for computerized algebra. It was her doctoral thesis, titled 'The Question of Finitely Many Steps in Polynomial Ideal Theory', and published in Mathematische Annalen.",
+    image:"https://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Grete_Hermann"
   },
   {
     name:"",
@@ -33,7 +43,6 @@ db.timeline_women.insert([
   },
 ])
 
-// * 1893: [[Henrietta Swan Leavitt]] (1868–1921) joined the Harvard "computers", a group of women engaged in the production of astronomical data at Harvard. She was instrumental in discovery of the [[cepheid variable]] stars, which are evidence for the [[expansion of the universe]].<ref name="Hamblinn">{{cite book|last1=Hamblin|first1=Jacob Darwin|title=Science in the early twentieth century : an encyclopedia|date=2005|publisher=ABC-CLIO|location=Santa Barbara, Calif.|isbn=9781851096657|pages=181–184}}</ref>
 // * 1926: [[Grete Hermann]] (1901–1984) published the foundational paper for [[computer algebra system|computerized algebra]]. It was her doctoral thesis, titled "The Question of Finitely Many Steps in Polynomial Ideal Theory", and published in Mathematische Annalen.<ref>{{cite journal| author=Grete Hermann| title=Die Frage der endlich vielen Schritte in der Theorie der Polynomideale| journal=[[Mathematische Annalen]]| year=1926| volume=95| pages=736–788|url=http://gdz.sub.uni-goettingen.de/index.php?id=11&PPN=PPN235181684_0095&DMDID=DMDLOG_0044&L=1| doi=10.1007/bf01206635}}</ref>
 // * 1940s: American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women "computers" used a [[differential analyzer]] in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.<ref>Gumbrecht, Jamie (8 February 2011). [https://www.webcitation.org/67YOtYd7s?url=http://edition.cnn.com/2011/TECH/innovation/02/08/women.rosies.math/ "Rediscovering WWII's female 'computers'"]. CNN. Archived from [http://edition.cnn.com/2011/TECH/innovation/02/08/women.rosies.math the original] on 10 May 2012.</ref> [[Phyllis Fox]] ran a differential analyzer single-handedly, with differential equations are her program specification.
 // * 1943: Women worked as [[Colossus computer|WREN Colossus operators]] during [[World War II|WW2]] at [[Bletchley Park]].<ref>{{cite book|last1=Copeland|first1=Jack B.|title=Colossus: The Secrets of Bletchley Park's Code Breaking Computers|date=2010|publisher=Oxford University Press}}</ref>
