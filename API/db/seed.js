@@ -82,6 +82,16 @@ db.timeline_women.insert([
     wiki:""
   },
   {
+    name:"Irma Wyman",
+    year: 1947,
+    dob:1928,
+    dod:2015,
+    info:"was an early computer engineer and the first woman to become vice president of Honeywell, Inc. She was a systems thinking tutor and was the first female CIO of Honeywell.",
+    contribution:"worked on a missile guidance project at the Willow Run Research Center. To calculate trajectory, they used mechanical calculators. In 1947–48, she visited the U.S. Naval Proving Ground where Grace Hopper was working on similar problems and discovered they were using a prototype of a programmable Mark II computer.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
+  },
+  {
     name:"",
     year:,
     dob:,
