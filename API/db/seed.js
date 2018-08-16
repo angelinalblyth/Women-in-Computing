@@ -663,26 +663,29 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Joanna_Rutkowska"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Megan Smith",
+    year:2014,
+    dob:null,
+    dod:null,
+    info:"was the 3rd Chief Technology Officer of the United States (U.S. CTO) and Assistant to the President, serving under President Barack Obama. She was previously a vice president at Google, leading new business development at Google for nine years, was general manager of Google.org,a vice president at Google[x] and the former CEO of Planet Out.She serves on the boards of MIT and Vital Voices, was a member of the USAID Advisory Committee on Voluntary Aid and co-founded the Malala Fund.On September 4, 2014, she was named as the third (and first female) U.S. CTO, succeeding Todd Park, and serving until January, 2017.",
+    contribution:"named third (and first female) Chief Technology Officer of the United States of America (USCTO), succeeding Todd Park.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Megan_Smith_official_portrait.jpg/1024px-Megan_Smith_official_portrait.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Megan_Smith"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
+    name:"Sarah Sharp",
+    year:2015,
+    dob:1985,
+    dod:null,
+    info:"is a software engineer who has worked extensively on the Linux kernel, including serving on the Linux Foundation's Technical Advisory Board for two years.Sharp began working on the kernel in 2006 as an undergraduate at Portland State University, and later through an Intel undergraduate research grant.Sharp's contributions to the kernel include writing and acting as a maintainer for its USB 3.0 driver.Sharp stepped down from direct work on the kernel on 5 October 2015, citing the abrasive communication style and 'abusive commentary [on submitted patches]'' of the maintainer community.
+
+    Sharp is also a volunteer co-coordinator of the Outreachy project,and led a team contributing to the Linux kernel for the project's June 2013 internships.
+
+    Sharp won the first annual Red Hat Women in Open Source Community Award in 2015 for 'efforts in improving communications and inviting women into open source communities' and the 2016 O'Reilly Open Source Award for accomplishments in the open source community.
+
+    In 2017, Sharp changed their pronouns to they/them and their first name from Sarah to Sage.",
+    contribution:"is the first winner of the annual Women in Open Source Community Award, awarded by RedHat.",
     image:"",
-    wiki:""
-  },
-
+    wiki:"https://en.wikipedia.org/wiki/Sage_Sharp"
+  }
 ])
-
-/
