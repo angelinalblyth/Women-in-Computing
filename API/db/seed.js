@@ -116,7 +116,7 @@ db.timeline_women.insert([
     year: 1949,
     dob:1924,
     dod:,
-    info:"was the second African-American woman to receive a Ph.D. in mathematics from an American University; she earned it in 1949 from Yale University (she attended Smith College before Yale). She performed pioneering work in the field of computing.",
+    info:"was the second African-American woman to receive a Ph.D. in mathematics from an American University she earned it in 1949 from Yale University (she attended Smith College before Yale). She performed pioneering work in the field of computing.",
     contribution:"was the second African-American woman in the U.S. to receive a PhD in mathematics. From 1956 to 1960, she worked for IBM on the Project Vanguard and Project Mercury space programs, analyzing orbits and developing computer procedures.",
     image:"https://upload.wikimedia.org/wikipedia/commons/5/55/Granville_evelyn.jpg",
     wiki:"https://en.wikipedia.org/wiki/Evelyn_Boyd_Granville"
@@ -160,6 +160,86 @@ db.timeline_women.insert([
     contribution:"was the first female engineer at Jet Propulsion Laboratory, developing real-time tracking systems using a North American Aviation Recomp II, a 40-bit word size computer",
     image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dana_Ulery.jpg/440px-Dana_Ulery.jpg",
     wiki:"https://en.wikipedia.org/wiki/Dana_Ulery"
+  },
+  {
+    name:"Jean E. Sammet",
+    year:1962,
+    dob:1928,
+    dod:2017,
+    info:"was an American computer scientist who developed the FORMAC programming language in 1962. She was also one of the developers of the influential COBOL programming language.",
+    contribution:"developed the FORMAC programming language. She was also the first to write extensively about the history and categorization of programming languages in 1969, and became the first female president of the Association for Computing Machinery in 1974.",
+    image:"https://upload.wikimedia.org/wikipedia/en/b/b3/Jean_E._Sammet.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Jean_E._Sammet"
+  },
+  {
+    name:"Dame Stephanie 'Steve' Shirley",
+    year:1962,
+    dob:1933,
+    dod:,
+    info:"is a British information technology pioneer, businesswoman and philanthropist.",
+    contribution:"founded the UK software company F.I. She was concerned with creating work opportunities for women with dependents, and predominantly employed women, only 3 out of 300-odd programmers were male, until that became illegal. She adopted the name 'Steve' to help her in the male-dominated business world. From 1989 to 1990, she was president of the British Computer Society. In 1985, she was awarded a Recognition of Information Technology Award.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/e1/Dame_Stephanie_Shirley_-_2013.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Steve_Shirley"
+  },
+  {
+    name:"Joan Ball",
+    year: 1964,
+    dob:,
+    dod:,
+    info:"was the first person to start a computer dating service in 1964.",
+    contribution:"was a computer dating pioneer who started the first computer dating service in England, in 1964. Ball's computer dating service also pre-dated the earliest American computer dating services, like Operation Match at Harvard.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Joan_Ball"
+  },
+  {
+    name:"Mary Allen Wilkes",
+    year: 1965,
+    dob:1937,
+    dod:,
+    info:"is a former computer programmer and logic designer, most known for her work with the LINC computer, now recognized by many as the world's first personal computer.Wilkes graduated from Wellesley College in 1959 where she majored in philosophy and theology.At that time she wanted to become a lawyer but was discouraged by friends and mentors because she was a woman. She sought work in the computer field partly because computer programming was a field that was open to women and partly because her geography teacher in the eighth grade had told her during a class discussion, 'Mary Allen, when you grow up, you ought to be a computer programmer.'She had no idea at the time what that meant, but she never forgot it. She finally became an attorney in 1975.",
+    contribution:"was the first person to use a computer in a private home (in 1965) and the first developer of an operating system (LAP) for the first minicomputer (LINC).",
+    image:"https://upload.wikimedia.org/wikipedia/commons/b/be/Mary_Allen_Wilkes_Portrait.jpeg",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Allen_Wilkes"
+  },
+  {
+    name:"Sister Mary Kenneth Keller",
+    year: 1965,
+    dob: 1913,
+    dod: 1985,
+    info:"was an American Roman Catholic religious sister, educator and pioneer in computer science. She was the first woman to earn a Ph.D. in computer science in the United States.",
+    contribution:"became the first American woman to earn a Ph.D. in Computer Science in 1965.[26] Her thesis was titled 'Inductive Inference on Computer Generated Patterns.'",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Kenneth_Keller"
+  },
+  {
+    name:"Margaret R. Fox",
+    year:1966,
+    dob: 1916,
+    dod: 2006,
+    info:"was an American electronics engineer and computer scientist born in 1916. She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
+    contribution:"was appointed Chief of the Office of Computer Information in 1966, part of the Institute for Computer Science and Technology of NBS. She held the post until 1975. She was also actively involved in the Association for Computing Machinery (ACM) and served as the first Secretary for the American Federation of Information Processing Societies (AFIPS)",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
+  },
+  {
+    name:"Vera Molnár",
+    year: 1968,
+    dob:1924,
+    dod:,
+    info:"is a French media artist of Hungarian origin. She is considered a pioneer of computer art.",
+    contribution:"is one of the pioneers of computer and algorithmic arts. In 1968 she began working with computers, where she began to create algorithmic drawings based on simple geometric shapes geometrical themes.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Vera_Moln%C3%A1r_%281996%29.png",
+    wiki:"https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r"
+  },
+  {
+    name:"Margaret Hamilton",
+    year: 1969,
+    dob:,
+    dod:,
+    info:"was an American electronics engineer and computer scientist born in 1916.She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
+    contribution:"was in late 1960s Director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for the Apollo space program. MIT work prevented an abort of the Apollo 11 moon landing by using robust architecture. Later, she was awarded the NASA Exceptional Space Act Award for her scientific and technical contributions.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Margaret_R._Fox"
   },
   {
     name:"",
