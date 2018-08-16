@@ -462,6 +462,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/%C3%89va_Tardos"
   },
   {
+    name:"Frances E. Allen",
+    year:1989,
+    dob:1932,
+    dod:null,
+    info:"s an American computer scientist and pioneer in the field of optimizing compilers. Allen was the first female IBM Fellow and in 2006 became the first woman to win the Turing Award.Her achievements include seminal work in compilers, program optimization, and parallelization.",
+    contribution:"became the first female IBM Fellow in 1989. In 2006, she became the first female recipient of the ACM's Turing Award.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Allen_mg_2528-3750K-b.jpg/1920px-Allen_mg_2528-3750K-b.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Frances_E._Allen"
+  },
+  {
     name:"",
     year:,
     dob:,
