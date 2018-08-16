@@ -332,14 +332,44 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Elizabeth_J._Feinler"
   },
   {
-    name:"Sophie Wilson",
-    year:1978,
-    dob:1957,
+    name:"Irene Grief",
+    year:1975,
+    dob:null,
     dod:null,
     info:"is an American computer scientist and a founder of the field of Computer-Supported Cooperative Work (CSCW).[1] She was the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
     contribution:"became the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
     image:"https://upload.wikimedia.org/wikipedia/commons/c/c7/Irene_Greif_2009.jpg",
     wiki:"https://en.wikipedia.org/wiki/Irene_Greif"
+  },
+  {
+    name:"Sophie Wilson",
+    year:1978,
+    dob:1957,
+    dod:null,
+    info:"is a British computer scientist and software engineer. Wilson designed the Acorn Micro-Computer, the first of a long line of computers sold by Acorn Computers Ltd, including its programming language BBC BASIC.[6] Wilson later designed the instruction set of the ARM processor, which is used in most 21st-century smartphones.",
+    contribution:"is a British computer scientist. She is known for designing the Acorn Micro-Computer, as well as the instruction set of the ARM processor.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/b/b3/Sophie_Wilson.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Sophie_Wilson"
+  },
+  {
+    name:"Patricia Selinger",
+    year:1979,
+    dob:null,
+    dod:null,
+    info:"is an American computer scientist and IBM Fellow, best known for her work on relational database management systems.",
+    contribution:"was one of the key architects of IBM System R, and in 1979 wrote the canonical paper on relational query optimization. She was appointed an IBM Fellow in 1994, and an ACM Fellow in 2009.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Patricia_Selinger"
+  },
+  {
+    name:"Carol Shaw",
+    year:1979,
+    dob:1955,
+    dod:null,
+    info:"is a former video game designer, notable for being one of the first female designers in the video game industry. While working at Atari, Inc. in 1978, Shaw designed the unreleased Polo game[1] and designed 3-D Tic-Tac-Toe the same year,both for the Atari 2600. Shaw's official job title at Atari was Microprocessor Software Engineer.Later she joined Activision, where she programmed her best-known game, River Raid.According to the River Raid manual, she is also a 'scholar in the field of Computer Science.'",
+    contribution:"was a game designer and programmer for Atari Corp. and Activision.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Carol_Shaw"
   },
   {
     name:"",
