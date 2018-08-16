@@ -442,6 +442,26 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
   },
   {
+    name:"Monica S. Lam",
+    year:1987,
+    dob:null,
+    dod:null,
+    info:"is a professor in the Computer Science Department at Stanford, and founder of Moka5 and Omlet.",
+    contribution:"receives a Ph.D. for her work on optimising compilers. She has since then performed influential research in many areas of computer science as well as co-authored a famous textbook on compilers.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Monica_S._Lam"
+  },
+  {
+    name:"Éva Tardos",
+    year:1988,
+    dob:1957,
+    dod:null,
+    info:"is a Hungarian mathematician and the Jacob Gould Schurman Professor of Computer Science at Cornell University. Tardos's research interest is algorithms. Her work focuses on the design and analysis of efficient methods for combinatorial optimization problems on graphs or networks. She has done some work on network flow algorithms like approximation algorithms for network flows, cut, and clustering problems. Her recent work focuses on algorithmic game theory and simple auctions.",
+    contribution:"was the recipient of the Fulkerson Prize for her research on design and analysis of algorithms.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpg/1920px-Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpg",
+    wiki:"https://en.wikipedia.org/wiki/%C3%89va_Tardos"
+  },
+  {
     name:"",
     year:,
     dob:,
