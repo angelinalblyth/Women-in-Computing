@@ -1,5 +1,5 @@
 import React from 'react';
-import TimeLine from './TimeLine.js';
+import TimeLineContainer from './TimeLineContainer.js';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import InfoContainer from './InfoContainer.js';
@@ -22,7 +22,7 @@ class MainContainer extends React.Component {
     return (
       <React.Fragment>
         <Header/>
-        <TimeLine/>
+        <TimeLineContainer/>
         <Footer/>
       </React.Fragment>
     );
