@@ -402,6 +402,46 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Janese_Swanson"
   },
   {
+    name:"Roberta Williams",
+    year:1984,
+    dob:1953,
+    dod:null,
+    info:"is an American video game designer, writer, and a co-founder of Sierra On-Line (later known as Sierra Entertainment), who developed her first game while living in Simi Valley, California. She is most famous for her work in the field of graphic adventure games with titles such as Mystery House, the King's Quest series, and Phantasmagoria. She is married to Ken Williams and retired from her career in 1999. Roberta Williams is one of the most influential PC game designers of the 1980s and 1990s, and has been credited with creating the graphic adventure genre.",
+    contribution:"did pioneering work in graphical adventure games for personal computers, particularly the King's Quest series.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Roberta_Williams"
+  },
+  {
+    name:"Susan Kare",
+    year: 1984,
+    dob:1954,
+    dod:null,
+    info:"is an artist and graphic designer who created many of the interface elements and typefaces for the Apple Macintosh in the 1980s. She was also Creative Director (and one of the original employees) at NeXT, the company formed by Steve Jobs after he left Apple in 1985.She has worked for Microsoft and IBM, and, more recently, Pinterest and Facebook.",
+    contribution:"created the icons and many of the interface elements for the original Apple Macintosh in the 1980s,and was an original employee of NeXT, working as the Creative Director.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Susan_Kare"
+  },
+  {
+    name:"Radia Perlman",
+    year:1985,
+    dob:1951,
+    dod:null,
+    info:"is an American computer programmer and network engineer. She is most famous for her invention of the spanning-tree protocol (STP), which is fundamental to the operation of network bridges, while working for Digital Equipment Corporation. She also made large contributions to many other areas of network design and standardization, such as link-state routing protocols. More recently she has invented the TRILL protocol to correct some of the shortcomings of spanning-trees. She is currently employed by Dell EMC.",
+    contribution:"invented the Spanning Tree Protocol. She has done extensive and innovative research, particularly on encryption and networking. She received the USENIX Lifetime Achievement Award in 2007, among numerous others.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Radia_Perlman_2009.jpg/800px-Radia_Perlman_2009.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Radia_Perlman"
+  },
+  {
+    name:"Irma Wyman",
+    year:1985,
+    dob:1927,
+    dod:null,
+    info:"was an early computer engineer and the first woman to become vice president of Honeywell, Inc. She was a systems thinking tutor and was the first female CIO of Honeywell.",
+    contribution:"was the first Honeywell CIO.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
+  },
+  {
     name:"",
     year:,
     dob:,
