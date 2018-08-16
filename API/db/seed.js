@@ -202,6 +202,26 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Mary_Allen_Wilkes"
   },
   {
+    name:"Sister Mary Kenneth Keller",
+    year: 1965,
+    dob: 1913,
+    dod: 1985,
+    info:"was an American Roman Catholic religious sister, educator and pioneer in computer science. She was the first woman to earn a Ph.D. in computer science in the United States.",
+    contribution:"became the first American woman to earn a Ph.D. in Computer Science in 1965.[26] Her thesis was titled 'Inductive Inference on Computer Generated Patterns.'",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Kenneth_Keller"
+  },
+  {
+    name:"Margaret R. Fox",
+    year:1966,
+    dob: 1916,
+    dod: 2006,
+    info:"was an American electronics engineer and computer scientist born in 1916. She was the Chief of the Office of Computer Information, part of the Institute for Computer Science and Technology of the National Bureau of Standards (now the National Institute of Standards and Technology) from 1966 to 1975 and was the first secretary of the American Federation of Information Processing Societies.",
+    contribution:"was appointed Chief of the Office of Computer Information in 1966, part of the Institute for Computer Science and Technology of NBS. She held the post until 1975. She was also actively involved in the Association for Computing Machinery (ACM) and served as the first Secretary for the American Federation of Information Processing Societies (AFIPS)",
+    image:"",
+    wiki:""
+  },
+  {
     name:"",
     year:,
     dob:,
