@@ -1,4 +1,5 @@
 import React from 'react';
+import InfoContainer from './InfoContainer'
 
 class TimeLine extends React.Component {
   constructor(props){
@@ -7,7 +8,7 @@ class TimeLine extends React.Component {
   }
   render(){
     return(
-      <p>timeline</p>
+      <InfoContainer/>
     )
   }
 }
