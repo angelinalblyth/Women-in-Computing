@@ -282,6 +282,36 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
   },
   {
+    name:"Karen Spärck Jones",
+    year:1972,
+    dob:1935,
+    dod:2007,
+    info:"was a British computer scientist who was responsible for the concept of inverse document frequency, a technology that underlies most modern search engines.",
+    contribution:"was one of the pioneers of information retrieval and natural language processing.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/a/af/Karen_Sp%C3%A4rck.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones"
+  },
+  {
+    name:"Sandra Kurtzig",
+    year:1972,
+    dob:null,
+    dod:null,
+    info:"is an American businesswoman and technology entrepreneur. She was one of Silicon Valley's first female entrepreneurs, and as the founder of the business and manufacturing software producer ASK Group in 1972, was the first woman to take a Silicon Valley technology company public.",
+    contribution:"founded ASK Computer Systems, an early Silicon Valley startup",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sandra_Kurtzig_in_2014.jpg/1024px-Sandra_Kurtzig_in_2014.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Sandra_Kurtzig"
+  },
+  {
+    name:"Susan Nycum",
+    year:1973,
+    dob:null,
+    dod:null,
+    info:"is a lawyer who specialises in computer security and intellectual property issues. She worked at the law firm of Chickering and Gregory in San Francisco[1] and then became a partner at the law firm Baker & McKenzie[2] where she headed its IT and intellectual property group. She was a fellow of the Association for Computing Machinery and a member of its council. She was an early member of its special interest group for higher education, SIGUCCS, and was inducted into its hall of fame in 2004.[3][4] She was Chairwoman of the National Information Systems Advisory Panel in the early 1980s.",
+    contribution:"co-authored Computer Abuse, a minor classic that was one of the first studies to define and document computer-related crime.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Susan_Nycum"
+  },
+  {
     name:"",
     year:,
     dob:,
