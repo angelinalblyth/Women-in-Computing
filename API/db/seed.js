@@ -182,6 +182,26 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Steve_Shirley"
   },
   {
+    name:"Joan Ball",
+    year: 1964,
+    dob:,
+    dod:,
+    info:"was the first person to start a computer dating service in 1964.",
+    contribution:"was a computer dating pioneer who started the first computer dating service in England, in 1964. Ball's computer dating service also pre-dated the earliest American computer dating services, like Operation Match at Harvard.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Joan_Ball"
+  },
+  {
+    name:"Mary Allen Wilkes",
+    year: 1965,
+    dob:1937,
+    dod:,
+    info:"is a former computer programmer and logic designer, most known for her work with the LINC computer, now recognized by many as the world's first personal computer.Wilkes graduated from Wellesley College in 1959 where she majored in philosophy and theology.At that time she wanted to become a lawyer but was discouraged by friends and mentors because she was a woman. She sought work in the computer field partly because computer programming was a field that was open to women and partly because her geography teacher in the eighth grade had told her during a class discussion, 'Mary Allen, when you grow up, you ought to be a computer programmer.'She had no idea at the time what that meant, but she never forgot it. She finally became an attorney in 1975.",
+    contribution:"was the first person to use a computer in a private home (in 1965) and the first developer of an operating system (LAP) for the first minicomputer (LINC).",
+    image:"https://upload.wikimedia.org/wikipedia/commons/b/be/Mary_Allen_Wilkes_Portrait.jpeg",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Allen_Wilkes"
+  },
+  {
     name:"",
     year:,
     dob:,
