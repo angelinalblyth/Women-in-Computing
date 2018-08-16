@@ -382,6 +382,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
   },
   {
+    name:"Lorinda Cherry",
+    year:1982,
+    dob:null,
+    dod:null,
+    info:"is a computer programmer. She received her Masters in computer science from Stevens Institute of Technology in 1969. She joined Bell Labs in 1972 as an assembly language programmer, and worked there on the Unix operating system for several years.Cherry has prepared a 'pocket reference' which is commonly known as the 'Purple Card'.",
+    contribution:"worked on the Writer's Workbench (wwb) for Bell Labs.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Lorinda_Cherry"
+  },
+  {
     name:"",
     year:,
     dob:,
