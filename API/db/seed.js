@@ -643,14 +643,24 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Melanie_Rieback"
   },
   {
-    name:"",
-    year:,
+    name:"Joanna Rutkowska",
+    year:2006,
     dob:,
     dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    info:"is a Polish computer security researcher, primarily known for her research on low-level security and stealth malware - and as founder of the Qubes OS security-focused desktop operating system.
+
+    She became known in the security community after the Black Hat Briefings conference in Las Vegas in August 2006, where Rutkowska presented an attack against Vista kernel protection mechanism, and also a technique dubbed Blue Pill, that used hardware virtualization to move a running OS into a virtual machine. Subsequently, she has been named one of Five Hackers who Put a Mark on 2006 by eWeek Magazine for her research on the topic. The original concept of Blue Pill was published by another researcher at IEEE Oakland on May 2006 under the name VMBR.
+
+    During the following years, Rutkowska continued to focus on low-level security. In 2007 she demonstrated that certain types of hardware-based memory acquisition (e.g. FireWire based) are unreliable and can be defeated.Later in 2007, together with a team member Alexander Tereshkin, presented further research on virtualization malware.In 2008, Rutkowska with her team focused on Xen hypervisor security.In 2009, together with a team member Rafal Wojtczuk, presented an attack against Intel Trusted Execution Technology and Intel System Management Mode.
+
+    In April 2007, Rutkowska founded Invisible Things Lab in Warsaw, Poland. The company focuses on OS and VMM security research and provides various consulting services.
+
+    In 2010, she and Rafal Wojtczuk began working on the Qubes OS security-oriented desktop Xen distribution, which utilizes Fedora Linux. The initial release of Qubes 1.0 was completed by September 3, 2012 and is available as a free download.Its main concept is 'security by compartmentalization', using domains implemented as lightweight Xen virtual machines to isolate various subsystems. Each compartment is referred to as a Qube, which operates as a separate hardware level virtual machine. The project refers to itself as 'a reasonably secure operating system' and has received endorsements by numerous privacy and security experts.[citation needed] It is fairly unique in its capabilities, having a design informed by research on proven vulnerabilities in the trusted compute base (TCB), that are unaddressed in most common desktop operating systems.
+
+    She has published seminal works on systems trustability, most recently Intel x86 Considered Harmful and State Considered Harmful - A Proposal for a Stateless Laptop.Rutkowska has been invited as an esteemed presenter at security conferences, such as Chaos Communication Congress, Black Hat Briefings, HITB, RSA Conference, RISK, EuSecWest & Gartner IT Security Summit.",
+    contribution:"presented Blue Pill, a rootkit based on x86 virtualization, at the Black Hat Briefings computer security conference.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/LinuxCon_Europe_Joanna_Rutkowska_03.jpg/1024px-LinuxCon_Europe_Joanna_Rutkowska_03.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Joanna_Rutkowska"
   },
   {
     name:"",
