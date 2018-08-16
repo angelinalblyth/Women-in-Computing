@@ -312,6 +312,26 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Susan_Nycum"
   },
   {
+    name:"Phyllis Fox",
+    year:1973,
+    dob:1923,
+    dod:null,
+    info:"is an American mathematician and computer scientist.",
+    contribution:"worked on the PORT portable mathematical/numerical library.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Phyllis_Fox"
+  },
+  {
+    name:"Elizabeth Feinler",
+    year:1974,
+    dob:1931,
+    dod:null,
+    info:"is an American information scientist. From 1972 until 1989 she was director of the Network Information Systems Center at the Stanford Research Institute (SRI International). Her group operated the Network Information Center (NIC) for the ARPANET as it evolved into the Defense Data Network (DDN) and the Internet.",
+    contribution:"and her team defined a simple text file format for Internet host names.The list evolved into the Domain Name System and her group became the naming authority for the top-level domains of .mil, .gov, .edu, .org, and .com.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/6/6d/ElizabethFeinler-2011.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Elizabeth_J._Feinler"
+  },
+  {
     name:"",
     year:,
     dob:,
