@@ -372,6 +372,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Carol_Shaw"
   },
   {
+    name:"Carla Meninsky",
+    year:1980,
+    dob:null,
+    dod:null,
+    info:"is former video game designer and programmer during the early years of the Atari VCS.Along with Carol Shaw (creator of 3-D Tic-Tac-Toe and River Raid), Meninsky was one of two female engineers at Atari, Inc. to develop video game cartridges.She later became an intellectual property lawyer.",
+    contribution:"was the game designer and programmer for Atari 2600 games Dodge 'Em and Warlords.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
+  },
+  {
     name:"",
     year:,
     dob:,
