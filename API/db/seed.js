@@ -122,6 +122,46 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Evelyn_Boyd_Granville"
   },
   {
+    name:"Ida Rhodes",
+    year:1950,
+    dob:1900,
+    dod:1986,
+    info:"was an American mathematician who became a member of the clique of influential women at the heart of early computer development in the United States",
+    contribution:"was one of the pioneers in the analysis of systems of programming. She co-designed the C-10 language in the early 1950s for the UNIVAC I – a computer system that was used to calculate the census.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ida_Rhodes_filming_at_IBM_002.jpg/1497px-Ida_Rhodes_filming_at_IBM_002.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Ida_Rhodes"
+  },
+  {
+    name:"Mary Coombs",
+    year:1952,
+    dob:1929,
+    dod:,
+    info:"is recognised as being the first female commercial programmer, she was the first woman to work on the LEO computers.Her father, William Blood, believed in women's education and her sister worked in microbiology and bacteriology. Unlike her sister, and unlike others in computing, she did not have a background in maths or science.The National Museum of Computing documents her contribution.She graduated with a degree in French from Queen Mary University in London.She later moved to Surrey, when her father became a Medical Officer for the catering company, J. Lyons and Co. He was clear that women should have their own careers and interests.",
+    contribution:"was one of the first programmers on, and was the first female programmer on LEO, the first business computer. She went on to work on LEO II and LEO III.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Coombs"
+  },
+  {
+    name:"",
+    year:1958,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"Orbital calculations for the United States' Explorer 1 satellite were solved by the NASA Jet Propulsion Laboratory's all-female 'computers', many of whom were recruited out of high school. Mechanical calculators were supplemented with logarithmic calculations performed by hand.",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"Dana Ulery",
+    year:1961,
+    dob: 1938,
+    dod:,
+    info:"is an American computer scientist and pioneer in scientific computing applications. She began her career in 1961 as the first woman engineer at the NASA Jet Propulsion Laboratory (Pasadena, CA), designing and developing algorithms to model NASA’s Deep Space Network capabilities and automating real-time tracking systems for the Ranger and Mariner space missions using a North American Aviation Recomp II, 40-bit word size computer.Over the course of her career, she has held positions as an applied science and technology researcher and manager in industry, academia, and government.In 2007, she retired from her position as Chief Scientist of the Computational and Information Sciences Directorate at the United States Army Research Laboratory(ARL).",
+    contribution:"was the first female engineer at Jet Propulsion Laboratory, developing real-time tracking systems using a North American Aviation Recomp II, a 40-bit word size computer",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dana_Ulery.jpg/440px-Dana_Ulery.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Dana_Ulery"
+  },
+  {
     name:"",
     year:,
     dob:,
