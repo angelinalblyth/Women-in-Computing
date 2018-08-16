@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoContainer from './InfoContainer'
 
-class TimeLine extends React.Component {
+class TimeLineContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = ''
@@ -13,4 +13,4 @@ class TimeLine extends React.Component {
   }
 }
 
-export default TimeLine;
+export default TimeLineContainer;
