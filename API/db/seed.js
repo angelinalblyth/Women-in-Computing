@@ -611,36 +611,36 @@ db.timeline_women.insert([
     dod:null,
     info:"is a technical executive and inventor in the fields of display, imaging, and computer hardware. She is the founder of OpenWater,[3] a startup working on fMRI-type imaging of the body using holographic, infrared techniques.[4] In 2016, she joined the board of Lear Corporation, a Detroit-area maker of seats and electronics for cars.
 
-She was previously an executive at Facebook / Oculus VR.Among her objectives at Facebook was leading a concerted effort to bring Virtual Reality to the next level. Previously she was Head of the Display Division at Google X where she led more than one 'Moon Shot' program, reported to Sergey Brin, and advised and directed display and consumer electronic programs throughout Google. The Wall Street Journal reported that among her projects there she created Google Lego TV: displays composed of smaller screens that plug together like Legos to create vast, seamless images and 'live walls' for wall size interaction, television, video conferencing and gaming, to virtual reality without having to wear anything on your face or body.
+    She was previously an executive at Facebook / Oculus VR.Among her objectives at Facebook was leading a concerted effort to bring Virtual Reality to the next level. Previously she was Head of the Display Division at Google X where she led more than one 'Moon Shot' program, reported to Sergey Brin, and advised and directed display and consumer electronic programs throughout Google. The Wall Street Journal reported that among her projects there she created Google Lego TV: displays composed of smaller screens that plug together like Legos to create vast, seamless images and 'live walls' for wall size interaction, television, video conferencing and gaming, to virtual reality without having to wear anything on your face or body.
 
-Jepsen previously founded Pixel Qi in Taipei, Taiwan, focused on innovative opto-electronic architectures and the manufacturer thereof. Pixel Qi aimed to deliver high performance, low-power, sunlight-readable screens for mobile devices. The long term vision of Pixel Qi was to create devices that never need be recharged through a two prong approach 1) lowering the power consumption of the device through innovative screen and power management technology and 2) using alternative power generation and battery technologies.
+    Jepsen previously founded Pixel Qi in Taipei, Taiwan, focused on innovative opto-electronic architectures and the manufacturer thereof. Pixel Qi aimed to deliver high performance, low-power, sunlight-readable screens for mobile devices. The long term vision of Pixel Qi was to create devices that never need be recharged through a two prong approach 1) lowering the power consumption of the device through innovative screen and power management technology and 2) using alternative power generation and battery technologies.
 
-She was the co-founder and first chief technology officer of One Laptop per Child (OLPC) a non-profit that generated more than $1B in revenue and helped create $30B in revenue for its for-profit partners. There she designed the $100 laptop with new screen architectures, new very low power management architecture, new battery technology, new mesh networking protocol, and new user interface, and shipped millions of them to children in the developing world.
+    She was the co-founder and first chief technology officer of One Laptop per Child (OLPC) a non-profit that generated more than $1B in revenue and helped create $30B in revenue for its for-profit partners. There she designed the $100 laptop with new screen architectures, new very low power management architecture, new battery technology, new mesh networking protocol, and new user interface, and shipped millions of them to children in the developing world.
 
-In 2008 she was named to the Time 100, and In 2013 she was named to CNN's top 10 thinkers in science and technology, for her work in rethinking functional brain imaging.She is also a member of the Xconomists, an ad hoc team of editorial advisors for the tech news and media company, Xconomy.",
+    In 2008 she was named to the Time 100, and In 2013 she was named to CNN's top 10 thinkers in science and technology, for her work in rethinking functional brain imaging.She is also a member of the Xconomists, an ad hoc team of editorial advisors for the tech news and media company, Xconomy.",
     contribution:"was the founder and chief technology officer of One Laptop Per Child (OLPC), and the founder of Pixel Qi.",
     image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mary_Lou_Jepsen_in_Lab.jpg/1280px-Mary_Lou_Jepsen_in_Lab.jpg",
     wiki:"https://en.wikipedia.org/wiki/Mary_Lou_Jepsen"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Maria Klawel",
+    year:2006,
+    dob:1951,
+    dod:null,
+    info:"is a computer scientist and the fifth president of Harvey Mudd College (since July 1, 2006).Born in Toronto in 1951, she became a naturalized U.S. citizen in 2009. She was previously Dean of the School of Engineering and Applied Science at Princeton University.",
+    contribution:"was the first woman to become president of the Harvey Mudd College since its founding in 1955 and was ACM president from 2002 until 2004.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/36/Maria_Klawe_2015.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Maria_Klawe"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Melanie Rieback",
+    year:2006,
+    dob:null,
+    dod:null,
+    info:"is a computer scientist, chiefly known for her work regarding the privacy and security of RFID (radio frequency identification) technology.",
+    contribution:"research concerns the security and privacy of Radio Frequency Identification (RFID) technology, she is known to have programmed the first virus to infect RFID devices.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/ee/Melanie_Rieback_at_the_SingularityU_The_Netherlands_Summit_2016_%2829027699274%29_%28cropped%29.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Melanie_Rieback"
   },
   {
     name:"",
