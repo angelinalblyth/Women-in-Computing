@@ -162,6 +162,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Dana_Ulery"
   },
   {
+    name:"Jean E. Sammet",
+    year:1962,
+    dob:1928,
+    dod:2017,
+    info:"was an American computer scientist who developed the FORMAC programming language in 1962. She was also one of the developers of the influential COBOL programming language.",
+    contribution:"developed the FORMAC programming language. She was also the first to write extensively about the history and categorization of programming languages in 1969, and became the first female president of the Association for Computing Machinery in 1974.",
+    image:"https://upload.wikimedia.org/wikipedia/en/b/b3/Jean_E._Sammet.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Jean_E._Sammet"
+  },
+  {
     name:"",
     year:,
     dob:,
