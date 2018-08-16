@@ -1,7 +1,7 @@
 use timelinedb
 db.dropDatabase()
 
-db.timeline_women.insert(
+db.timeline_women.insert([
   {
     name:'Ada Lovelace',
     year: 1842,
@@ -11,80 +11,68 @@ db.timeline_women.insert(
     contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a 'computing machine' and the first computer programmer",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
     wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
-  })
-//   {
-//     name:"Henrietta Swan Leavitt",
-//     year:1893,
-//     dob:1868,
-//     dod:1921
-//     info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a computer in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies. She explained her discovery: A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods."
-//     contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the un[3G[J[3G^C
-bye
-g (see Hubble's law)."
-//     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg"
-//     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
-//   },
-//   {
-//     name:"Grete Hermann",
-//     year:1926,
-//     dob:1901,
-//     dod:1984,
-//     info:"was a German mathematician and philosopher noted for her work in mathematics, physics, philosophy and education. She is noted for her early philosophical work on the foundations of quantum mechanics, and is now known most of all for an early, but long-ignored critique of a no-hidden-variable theorem by John von Neumann. It has been suggested that, had her critique not remained nearly unknown for decades, the historical development of quantum mechanics might have been very different.",
-//     contribution:"published the foundational paper for computerized algebra. It was her doctoral thesis, titled 'The Question of Finitely Many Steps in Polynomial Ideal Theory', and published in Mathematische Annalen.",
-//     image:"https://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg",
-//     wiki:"https://en.wikipedia.org/wiki/Grete_Hermann"
-//   },
-//   {
-//     name:"",
-//     year:1940,
-//     dob:1943,
-//     dod:1945,
-//     info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women "computers" used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
-//     contribution:"",
-//     image:"",
-//     wiki:""
-//   },
-//   {
-//     name:"",
-//     year:1943,
-//     dob:,
-//     dod:,
-//     info:"Women worked as WREN Colossus operators during WW2 at Bletchley Park.",
-//     contribution:"",
-//     image:"",
-//     wiki:""
-//   },
-//   {
-//     name:"",
-//     year:1943,
-//     dob:,
-//     dod:,
-//     info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
-//     contribution:"",
-//     image:"",
-//     wiki:""
-//   },
-//   {
-//     name:"Gertrude Blanch",
-//     year:1943,
-//     dob:1896,
-//     dod:1996,
-//     info:"was an American mathematician who did pioneering work in numerical analysis and computation. She was a leader of the Mathematical Tables Project in New York from its beginning. She worked later as the assistant director and leader of the Numerical Analysis at UCLA computing division and was head of mathematical research for the Aerospace Research Laboratory at Wright-Patterson Air Force Base in Dayton, Ohio.",
-//     contribution:"led the Mathematical Tables Project group from 1938 to 1948. During World War II, the project operated as a major computing office for the U.S. government and did calculations for the Office of Scientific Research and Development, the Army, the Navy, the Manhattan Project and other institutions.",
-//     image:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Gertrude_blanch.jpg",
-//     wiki:"https://en.wikipedia.org/wiki/Gertrude_Blanch"
-//   },
-//   {
-//     name:"",
-//     year:,
-//     dob:,
-//     dod:,
-//     info:"",
-//     contribution:"",
-//     image:"",
-//     wiki:""
-//   },
-// ])
+  },
+  {
+    name:"Henrietta Swan Leavitt",
+    year:1893,
+    dob:1868,
+    dod:1921,
+    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a computer in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies. She explained her discovery: A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods.",
+    contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the un[3G[J[3G^Cbyeg (see Hubble's law).",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    name:"Grete Hermann",
+    year:1926,
+    dob:1901,
+    dod:1984,
+    info:"was a German mathematician and philosopher noted for her work in mathematics, physics, philosophy and education. She is noted for her early philosophical work on the foundations of quantum mechanics, and is now known most of all for an early, but long-ignored critique of a no-hidden-variable theorem by John von Neumann. It has been suggested that, had her critique not remained nearly unknown for decades, the historical development of quantum mechanics might have been very different.",
+    contribution:"published the foundational paper for computerized algebra. It was her doctoral thesis, titled 'The Question of Finitely Many Steps in Polynomial Ideal Theory', and published in Mathematische Annalen.",
+    image:"https://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Grete_Hermann"
+  },
+  {
+    name:"",
+    year:1940,
+    dob:1943,
+    dod:1945,
+    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women 'computers' used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:1943,
+    dob: null,
+    dod: null,
+    info:"Women worked as WREN Colossus operators during WW2 at Bletchley Park.",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:1943,
+    dob: null,
+    dod: null,
+    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"Gertrude Blanch",
+    year:1943,
+    dob:1896,
+    dod:1996,
+    info:"was an American mathematician who did pioneering work in numerical analysis and computation. She was a leader of the Mathematical Tables Project in New York from its beginning. She worked later as the assistant director and leader of the Numerical Analysis at UCLA computing division and was head of mathematical research for the Aerospace Research Laboratory at Wright-Patterson Air Force Base in Dayton, Ohio.",
+    contribution:"led the Mathematical Tables Project group from 1938 to 1948. During World War II, the project operated as a major computing office for the U.S. government and did calculations for the Office of Scientific Research and Development, the Army, the Navy, the Manhattan Project and other institutions.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Gertrude_blanch.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Gertrude_Blanch"
+  }
+])
 //
 // // * 1943: [[Gertrude Blanch]] (1897–1996) led the [[Mathematical Tables Project]] group from 1938 to 1948. During World War II, the project operated as a major computing office for the U.S. government and did calculations for the [[Office of Scientific Research and Development]], the Army, the Navy, the Manhattan Project and other institutions.<ref>{{cite journal|last=Grier|first=David Alan|title=The Math Tables Project of the Work Projects Administration: The Reluctant Start of the Computing Era|journal=IEEE Ann. Hist. Comput.|year=1998|volume=20|issue=3|pages=33–50|doi=10.1109/85.707573|issn=1058-6180}}</ref>
 // // * 1946: [[Jean Bartik|Betty Jennings]], [[Betty Holberton|Betty Snyder]], [[Frances Spence]], [[Kathleen Antonelli|Kay McNulty]], [[Marlyn Meltzer|Marlyn Wescoff]], and [[Ruth Teitelbaum|Ruth Lichterman]] were the regularly working programmers of the [[ENIAC]]. [[Adele Goldstine]], also involved in the programming, wrote the program manual for the [[ENIAC]].<ref>{{cite journal|last1=Light|first1=Jennifer S.|title=When Computers Were Women|journal=Technology and Culture|date=1999|volume=40|issue=3|pages=469, 455–483}}</ref>[[File:Montse Maritxalar.jpg|thumb|right|261x261px|Computer scientist [[Montse Maritxalar]] of the University of the Basque Country in 2008.]]
