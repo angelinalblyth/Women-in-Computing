@@ -7,7 +7,7 @@ db.timeline_women.insert([
     dob:1815,
     dod:1851,
     info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
-    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a 'computing machine' and the first computer programmer",
+    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a computing machine and the first computer programmer",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
     wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
   },
@@ -16,7 +16,7 @@ db.timeline_women.insert([
     year:1893,
     dob:1868,
     dod:1921
-    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a 'computer' in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies.[1] She explained her discovery: 'A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods.'"
+    info:"was an American astronomer who discovered the relation between the luminosity and the period of Cepheid variable stars. A graduate of Radcliffe College, Leavitt started working at the Harvard College Observatory as a computer in 1893, examining photographic plates in order to measure and catalog the brightness of the stars. Though she received little recognition in her lifetime, it was her discovery that first allowed astronomers to measure the distance between the Earth and faraway galaxies. She explained her discovery: A straight line can readily be drawn among each of the two series of points corresponding to maxima and minima, thus showing that there is a simple relation between the brightness of the variables and their periods."
     contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law)."
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg"
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
@@ -27,7 +27,7 @@ db.timeline_women.insert([
     dob:1901,
     dod:1984,
     info:"was a German mathematician and philosopher noted for her work in mathematics, physics, philosophy and education. She is noted for her early philosophical work on the foundations of quantum mechanics, and is now known most of all for an early, but long-ignored critique of a no-hidden-variable theorem by John von Neumann. It has been suggested that, had her critique not remained nearly unknown for decades, the historical development of quantum mechanics might have been very different.",
-    contribution:"published the foundational paper for computerized algebra. It was her doctoral thesis, titled 'The Question of Finitely Many Steps in Polynomial Ideal Theory', and published in Mathematische Annalen.",
+    contribution:"published the foundational paper for computerized algebra. It was her doctoral thesis, titled The Question of Finitely Many Steps in Polynomial Ideal Theory, and published in Mathematische Annalen.",
     image:"https://upload.wikimedia.org/wikipedia/en/e/ea/Grete_Hermann.jpg",
     wiki:"https://en.wikipedia.org/wiki/Grete_Hermann"
   },
@@ -36,7 +36,7 @@ db.timeline_women.insert([
     year:1940,
     dob:1943,
     dod:1945,
-    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women "computers" used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
+    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women 'computers' used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
     contribution:"",
     image:"",
     wiki:""
