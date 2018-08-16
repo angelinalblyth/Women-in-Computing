@@ -1,0 +1,19 @@
+{
+  "name": "women-in-computing",
+  "version": "1.0.0",
+  "description": "The BBC are looking to improve their online offering of educational content by developing some interactive apps that display information in a fun and interesting way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelinalblyth/Women-in-Computing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelinalblyth/Women-in-Computing/issues"
+  },
+  "homepage": "https://github.com/angelinalblyth/Women-in-Computing#readme"
+}
