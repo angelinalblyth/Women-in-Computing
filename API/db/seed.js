@@ -381,5 +381,288 @@ db.timeline_women.insert([
     contribution:"was the game designer and programmer for Atari 2600 games Dodge 'Em and Warlords.",
     image:"",
     wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
-  }
+  },
+  {
+    name:"Lorinda Cherry",
+    year:1982,
+    dob:null,
+    dod:null,
+    info:"is a computer programmer. She received her Masters in computer science from Stevens Institute of Technology in 1969. She joined Bell Labs in 1972 as an assembly language programmer, and worked there on the Unix operating system for several years.Cherry has prepared a 'pocket reference' which is commonly known as the 'Purple Card'.",
+    contribution:"worked on the Writer's Workbench (wwb) for Bell Labs.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Lorinda_Cherry"
+  },
+  {
+    name:"Janese Swanson",
+    year:1983,
+    dob:1958,
+    dod:null,
+    info:"is an American inventor and software developer. Swanson co-developed the first of the Carmen Sandiego educational games, and founded the company Girl Tech,which creates products aimed at making technology more interesting for girls. She has developed award-winning curricula, electronic toys, and books that encourage girls to explore technology and inventions. Her toy inventions include the Snoop Stopper Keepsake Box, Me-Mail Message Center, Zap N’ Lock Journal, and Swap-It Locket. Her publications include Tech Girl's Internet Adventures, Tech Girl's Activity Book, and Girlzine: A Magazine for the Global Girl.",
+    contribution:"(with others) developed the first of the Carmen Sandiego games. She went on to found Girl Tech. Girl Tech develops products and services that encourage girls to use new technologies, such as the Internet and video games.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Janese_Swanson"
+  },
+  {
+    name:"Roberta Williams",
+    year:1984,
+    dob:1953,
+    dod:null,
+    info:"is an American video game designer, writer, and a co-founder of Sierra On-Line (later known as Sierra Entertainment), who developed her first game while living in Simi Valley, California. She is most famous for her work in the field of graphic adventure games with titles such as Mystery House, the King's Quest series, and Phantasmagoria. She is married to Ken Williams and retired from her career in 1999. Roberta Williams is one of the most influential PC game designers of the 1980s and 1990s, and has been credited with creating the graphic adventure genre.",
+    contribution:"did pioneering work in graphical adventure games for personal computers, particularly the King's Quest series.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Roberta_Williams"
+  },
+  {
+    name:"Susan Kare",
+    year: 1984,
+    dob:1954,
+    dod:null,
+    info:"is an artist and graphic designer who created many of the interface elements and typefaces for the Apple Macintosh in the 1980s. She was also Creative Director (and one of the original employees) at NeXT, the company formed by Steve Jobs after he left Apple in 1985.She has worked for Microsoft and IBM, and, more recently, Pinterest and Facebook.",
+    contribution:"created the icons and many of the interface elements for the original Apple Macintosh in the 1980s,and was an original employee of NeXT, working as the Creative Director.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Susan_Kare"
+  },
+  {
+    name:"Radia Perlman",
+    year:1985,
+    dob:1951,
+    dod:null,
+    info:"is an American computer programmer and network engineer. She is most famous for her invention of the spanning-tree protocol (STP), which is fundamental to the operation of network bridges, while working for Digital Equipment Corporation. She also made large contributions to many other areas of network design and standardization, such as link-state routing protocols. More recently she has invented the TRILL protocol to correct some of the shortcomings of spanning-trees. She is currently employed by Dell EMC.",
+    contribution:"invented the Spanning Tree Protocol. She has done extensive and innovative research, particularly on encryption and networking. She received the USENIX Lifetime Achievement Award in 2007, among numerous others.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Radia_Perlman_2009.jpg/800px-Radia_Perlman_2009.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Radia_Perlman"
+  },
+  {
+    name:"Irma Wyman",
+    year:1985,
+    dob:1927,
+    dod:null,
+    info:"was an early computer engineer and the first woman to become vice president of Honeywell, Inc. She was a systems thinking tutor and was the first female CIO of Honeywell.",
+    contribution:"was the first Honeywell CIO.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
+  },
+  {
+    name:"Monica S. Lam",
+    year:1987,
+    dob:null,
+    dod:null,
+    info:"is a professor in the Computer Science Department at Stanford, and founder of Moka5 and Omlet.",
+    contribution:"receives a Ph.D. for her work on optimising compilers. She has since then performed influential research in many areas of computer science as well as co-authored a famous textbook on compilers.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Monica_S._Lam"
+  },
+  {
+    name:"Éva Tardos",
+    year:1988,
+    dob:1957,
+    dod:null,
+    info:"is a Hungarian mathematician and the Jacob Gould Schurman Professor of Computer Science at Cornell University. Tardos's research interest is algorithms. Her work focuses on the design and analysis of efficient methods for combinatorial optimization problems on graphs or networks. She has done some work on network flow algorithms like approximation algorithms for network flows, cut, and clustering problems. Her recent work focuses on algorithmic game theory and simple auctions.",
+    contribution:"was the recipient of the Fulkerson Prize for her research on design and analysis of algorithms.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpg/1920px-Elisabeth_Bauer_and_Eva_Tardos_at_Cornell.jpg",
+    wiki:"https://en.wikipedia.org/wiki/%C3%89va_Tardos"
+  },
+  {
+    name:"Frances E. Allen",
+    year:1989,
+    dob:1932,
+    dod:null,
+    info:"s an American computer scientist and pioneer in the field of optimizing compilers. Allen was the first female IBM Fellow and in 2006 became the first woman to win the Turing Award.Her achievements include seminal work in compilers, program optimization, and parallelization.",
+    contribution:"became the first female IBM Fellow in 1989. In 2006, she became the first female recipient of the ACM's Turing Award.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Allen_mg_2528-3750K-b.jpg/1920px-Allen_mg_2528-3750K-b.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Frances_E._Allen"
+  },
+  {
+    name:"Frances Brazier",
+    year:1989,
+    dob:null,
+    dod:null,
+    info:"",
+    contribution:"professor of Computer Science at the Vrije Universiteit in Amsterdam, is one of the founder of NLnet, the first Internet service provider in the Netherlands.",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"Donna Dubinsky",
+    year:1992,
+    dob:1995,
+    dod:null,
+    info:"is an American businesswoman who played an integral role in the development of personal digital assistants (PDAs) serving as CEO of Palm, Inc. and co-founding Handspring with Jeff Hawkins in 1995.[2] Dubinsky co-founded Numenta in 2005 with Hawkins and Dileep George, based in Redwood City, CA. Numenta was founded to develop machine intelligence based on the principles of the neocortex. Dubinsky currently serves as CEO and board chair of Numenta.
+    She served on the board of Yale University from 2006-2018, including two years as Senior Fellow.
+    Fortune nominated her, together with Hawkins, to the Innovators Hall of Fame, while TIME named the pair as part of its Digital 50 in 1999 for their contribution to the development of the PDA.",
+    contribution:"CEO and co-founder of Palm, Inc., co-founder of Handspring, co-founder of Numenta, Harvard Business School's Alumni Achievement Award winner for 'introducing the first successful personal digital assistant (PDA) and who is now developing a computer memory system modeled after the human brain'.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Donna_Dubinsky"
+  },
+  {
+    name:"Shafi Goldwasser",
+    year:1993,
+    dob:1958,
+    dod:null,
+    info:"is an American-Israeli computer scientist and winner of the Turing Award in 2012. She is a professor of electrical engineering and computer science at MIT, a professor of mathematical sciences at the Weizmann Institute of Science, Israel, co-founder and chief scientist of Duality Technologies and the director of the Simons Institute for the Theory of Computing in Berkeley, CA.",
+    contribution:"a theoretical computer scientist, is a two-time recipient of the Gödel Prize for research on complexity theory, cryptography and computational number theory, and the invention of zero-knowledge proofs.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/8/84/Shafi_Goldwasser.JPG",
+    wiki:"https://en.wikipedia.org/wiki/Shafi_Goldwasser"
+  },
+  {
+    name:"Barbara Liskov",
+    year:1993,
+    dob:1939,
+    dod:null,
+    info:"is an American computer scientist[2] who is an Institute Professor at the Massachusetts Institute of Technology and Ford Professor of Engineering in its School of Engineering's electrical engineering and computer science department.[3] She was one of the first women to be granted a doctorate in computer science in the United States and is a Turing Award winner who developed the Liskov substitution principle.",
+    contribution:"together with Jeannette Wing, developed the Liskov substitution principle. Liskov was also the winner of the Turing Prize in 2008.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/1024px-Barbara_Liskov_MIT_computer_scientist_2010.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Barbara_Liskov"
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"",
+    year:,
+    dob:,
+    dod:,
+    info:"",
+    contribution:"",
+    image:"",
+    wiki:""
+  },
+
 ])
