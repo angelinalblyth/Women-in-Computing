@@ -332,6 +332,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Elizabeth_J._Feinler"
   },
   {
+    name:"Sophie Wilson",
+    year:1978,
+    dob:1957,
+    dod:null,
+    info:"is an American computer scientist and a founder of the field of Computer-Supported Cooperative Work (CSCW).[1] She was the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
+    contribution:"became the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/c/c7/Irene_Greif_2009.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Irene_Greif"
+  },
+  {
     name:"",
     year:,
     dob:,
