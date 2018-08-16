@@ -272,6 +272,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Mary_Shaw_(computer_scientist)"
   },
   {
+    name:"Adele Goldberg",
+    year:1972,
+    dob: 1945,
+    dod:null,
+    info:"is a computer scientist who participated in developing the programming language Smalltalk-80 and various concepts related to object-oriented programming while a researcher at the Xerox Palo Alto Research Center (PARC), in the 1970s.",
+    contribution:"was one of developers of the Smalltalk language.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/36/Adele_Goldberg_at_PyCon_2007.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
+  },
+  {
     name:"",
     year:,
     dob:,
