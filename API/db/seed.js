@@ -92,6 +92,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
   },
   {
+    name:"Kathleen Booth",
+    year:1948,
+    dob:1922,
+    dod:,
+    info:"wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London.[3] She helped design three different machines including the ARC, SEC, and APE(X)C.",
+    contribution:"s credited with writing the assembly language for the ARC2 computer.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Kathleen_Booth"
+  },
+  {
     name:"",
     year:,
     dob:,
@@ -103,7 +113,6 @@ db.timeline_women.insert([
   },
 ])
 
-// * 1947: [[Irma Wyman]] worked on a missile guidance project at the [[Willow Run Research Center]]. To calculate trajectory, they used mechanical calculators. In 1947–48, she visited the U.S. Naval Proving Ground where [[Grace Hopper]] was working on similar problems and discovered they were using a prototype of a programmable [[Harvard Mark II|Mark II]] computer.<ref>{{ cite web | title= Irma Wyman | work= Michigan Engineer, Spring 2010: Women in Engineering | url=http://www.engin.umich.edu/newscenter/pubs/engineer/10S/womenineng/wyman.html | accessdate= 2011-05-28}}</ref>
 // * 1948: [[Kathleen Booth]] (1922–) is credited with writing the assembly language for the ARC2 computer.<ref>{{Citation |last=Booth|first=Kathleen HV |title= Machine language for Automatic Relay Computer|work= Birkbeck College Computation Laboratory |publisher=University of London}}</ref>
 // * 1949: [[Grace Hopper]] (1906–1992), was a [[United States Navy]] officer and one of the first programmers of the [[Harvard Mark I]], known as the "Mother of [[COBOL]]". She developed the first [[compiler]] for an electronic computer, known as [[A-0 System|A-0]].  She also popularized the term "debugging" – a reference to a moth extracted from a relay in the Harvard Mark II computer.<ref>{{cite web|url=http://www.catb.org/jargon/html/B/bug.html |title=bug |publisher=Catb.org |date=1947-09-09 |accessdate=2013-10-02}}</ref>
 // * 1949: [[Evelyn Boyd Granville]] (1924–) was the second African-American woman in the U.S. to receive a PhD in mathematics. From 1956 to 1960, she worked for IBM on the [[Project Vanguard]] and [[Project Mercury]] space programs, analyzing orbits and developing computer procedures.<ref>{{Cite news|url=https://blogs.scientificamerican.com/roots-of-unity/mathematics-live-a-conversation-with-evelyn-boyd-granville/|title=Mathematics, Live: A Conversation with Evelyn Boyd Granville|last=Lamb|first=Evelyn|newspaper=Scientific American Blog Network|access-date=2016-11-02}}</ref>
