@@ -282,6 +282,106 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
   },
   {
+    name:"Karen Spärck Jones",
+    year:1972,
+    dob:1935,
+    dod:2007,
+    info:"was a British computer scientist who was responsible for the concept of inverse document frequency, a technology that underlies most modern search engines.",
+    contribution:"was one of the pioneers of information retrieval and natural language processing.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/a/af/Karen_Sp%C3%A4rck.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones"
+  },
+  {
+    name:"Sandra Kurtzig",
+    year:1972,
+    dob:null,
+    dod:null,
+    info:"is an American businesswoman and technology entrepreneur. She was one of Silicon Valley's first female entrepreneurs, and as the founder of the business and manufacturing software producer ASK Group in 1972, was the first woman to take a Silicon Valley technology company public.",
+    contribution:"founded ASK Computer Systems, an early Silicon Valley startup",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sandra_Kurtzig_in_2014.jpg/1024px-Sandra_Kurtzig_in_2014.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Sandra_Kurtzig"
+  },
+  {
+    name:"Susan Nycum",
+    year:1973,
+    dob:null,
+    dod:null,
+    info:"is a lawyer who specialises in computer security and intellectual property issues. She worked at the law firm of Chickering and Gregory in San Francisco[1] and then became a partner at the law firm Baker & McKenzie[2] where she headed its IT and intellectual property group. She was a fellow of the Association for Computing Machinery and a member of its council. She was an early member of its special interest group for higher education, SIGUCCS, and was inducted into its hall of fame in 2004.[3][4] She was Chairwoman of the National Information Systems Advisory Panel in the early 1980s.",
+    contribution:"co-authored Computer Abuse, a minor classic that was one of the first studies to define and document computer-related crime.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Susan_Nycum"
+  },
+  {
+    name:"Phyllis Fox",
+    year:1973,
+    dob:1923,
+    dod:null,
+    info:"is an American mathematician and computer scientist.",
+    contribution:"worked on the PORT portable mathematical/numerical library.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Phyllis_Fox"
+  },
+  {
+    name:"Elizabeth Feinler",
+    year:1974,
+    dob:1931,
+    dod:null,
+    info:"is an American information scientist. From 1972 until 1989 she was director of the Network Information Systems Center at the Stanford Research Institute (SRI International). Her group operated the Network Information Center (NIC) for the ARPANET as it evolved into the Defense Data Network (DDN) and the Internet.",
+    contribution:"and her team defined a simple text file format for Internet host names.The list evolved into the Domain Name System and her group became the naming authority for the top-level domains of .mil, .gov, .edu, .org, and .com.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/6/6d/ElizabethFeinler-2011.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Elizabeth_J._Feinler"
+  },
+  {
+    name:"Irene Grief",
+    year:1975,
+    dob:null,
+    dod:null,
+    info:"is an American computer scientist and a founder of the field of Computer-Supported Cooperative Work (CSCW).[1] She was the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
+    contribution:"became the first woman to earn a Ph.D. in computer science from the Massachusetts Institute of Technology.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/c/c7/Irene_Greif_2009.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Irene_Greif"
+  },
+  {
+    name:"Sophie Wilson",
+    year:1978,
+    dob:1957,
+    dod:null,
+    info:"is a British computer scientist and software engineer. Wilson designed the Acorn Micro-Computer, the first of a long line of computers sold by Acorn Computers Ltd, including its programming language BBC BASIC.[6] Wilson later designed the instruction set of the ARM processor, which is used in most 21st-century smartphones.",
+    contribution:"is a British computer scientist. She is known for designing the Acorn Micro-Computer, as well as the instruction set of the ARM processor.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/b/b3/Sophie_Wilson.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Sophie_Wilson"
+  },
+  {
+    name:"Patricia Selinger",
+    year:1979,
+    dob:null,
+    dod:null,
+    info:"is an American computer scientist and IBM Fellow, best known for her work on relational database management systems.",
+    contribution:"was one of the key architects of IBM System R, and in 1979 wrote the canonical paper on relational query optimization. She was appointed an IBM Fellow in 1994, and an ACM Fellow in 2009.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Patricia_Selinger"
+  },
+  {
+    name:"Carol Shaw",
+    year:1979,
+    dob:1955,
+    dod:null,
+    info:"is a former video game designer, notable for being one of the first female designers in the video game industry. While working at Atari, Inc. in 1978, Shaw designed the unreleased Polo game[1] and designed 3-D Tic-Tac-Toe the same year,both for the Atari 2600. Shaw's official job title at Atari was Microprocessor Software Engineer.Later she joined Activision, where she programmed her best-known game, River Raid.According to the River Raid manual, she is also a 'scholar in the field of Computer Science.'",
+    contribution:"was a game designer and programmer for Atari Corp. and Activision.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Carol_Shaw"
+  },
+  {
+    name:"Carla Meninsky",
+    year:1980,
+    dob:null,
+    dod:null,
+    info:"is former video game designer and programmer during the early years of the Atari VCS.Along with Carol Shaw (creator of 3-D Tic-Tac-Toe and River Raid), Meninsky was one of two female engineers at Atari, Inc. to develop video game cartridges.She later became an intellectual property lawyer.",
+    contribution:"was the game designer and programmer for Atari 2600 games Dodge 'Em and Warlords.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
+  },
+  {
     name:"",
     year:,
     dob:,
