@@ -515,154 +515,179 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Barbara_Liskov"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
+    name:"Sally Floyd",
+    year:1994,
+    dob:1953,
+    dod:null,
+    info:"is an American computer scientist. Formerly associated with the International Computer Science Institute in Berkeley, California, she retired in 2009. She is best known for her work on Internet congestion control, and was in 2007 one of the top-ten most cited researchers in computer science.",
+    contribution:"is known for her work on Transmission Control Protocol.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Sally_Floyd"
+  },
+  {
+    name:"Xiaoyuan Tu",
+    year:1996,
+    dob:1967,
+    dod:null,
     info:"",
-    contribution:"",
+    contribution:"was the first female recipient of ACM's Doctoral Dissertation Award.",
     image:"",
     wiki:""
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Anita Borg",
+    year:1997,
+    dob:1949,
+    dod:2003,
+    info:"was an American computer scientist. She founded the Institute for Women and Technology and the Grace Hopper Celebration of Women in Computing.",
+    contribution:"was the founding director of the Institute for Women and Technology (IWT), renamed Anita Borg Institute (ABI) in her honor in 2003.",
+    image:"https://upload.wikimedia.org/wikipedia/en/e/e1/Anita_Borg.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Anita_Borg"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
+    name:"LinuxChix",
+    year:1998,
+    dob:null,
+    dod:null,
+    info:"is a women-oriented Linux community. It was formed to provide both technical and social support for women Linux users, although men are encouraged to contribute.[1] Members of the community are referred to as 'a Linux chick' (singular) and 'LinuxChix' or 'Linux Chix' (plural) regardless of gender.",
+    contribution:"an international organization for women who use Linux and women and men who want to support women in computing was founded by Deb Richardson.",
     image:"",
-    wiki:""
+    wiki:"https://en.wikipedia.org/wiki/LinuxChix"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Marissa Mayer",
+    year:1999,
+    dob:1975,
+    dod:null,
+    info:"is an American information technology executive, formerly serving as the president and chief executive officer of Yahoo!, a position she had held starting July 2012. It was announced in January 2017 that she would step down from the company's board upon the sale of Yahoo!'s operating business to Verizon Communications[8] for $4.8 billion.[9] She would not join the newly combined company, now called 'Oath,' and announced her resignation on June 13, 2017.[9][10] She is a graduate of Stanford University and was a long-time executive, usability leader, and key spokeswoman for Google (employee #20).",
+    contribution:"was the first female engineer hired at Google, and was later named vice president of Search Product and User Experience. She was formerly the CEO of Yahoo!.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Marissa_Mayer%2C_World_Economic_Forum_2013_III.jpg/1024px-Marissa_Mayer%2C_World_Economic_Forum_2013_III.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Marissa_Mayer"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
+    name:"Ellen Spertus",
+    year:2003,
+    dob:null,
+    dod:null,
+    info:"is a Professor of Computer Science at Mills College, Oakland, California, United States, and a former senior research scientist at Google.",
+    contribution:"earned a PhD in Electrical Engineering and Computer Science from MIT in 1998 with the notable thesis 'ParaSite: Mining the structural information on the World-Wide Web'.",
     image:"",
-    wiki:""
+    wiki:"https://en.wikipedia.org/wiki/Ellen_Spertus"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Jeri Ellsworth",
+    year:2004,
+    dob:1974,
+    dod:null,
+    info:"is an American entrepreneur and an autodidact computer chip designer and inventor. She gained fame in 2004 for creating a complete Commodore 64 system on a chip housed within a joystick, called C64 Direct-to-TV. That 'computer in a joystick' could run 30 video games from the early 1980's, and at peak, sold over 70,000 units in a single day via the QVC shopping channel.
+    Ellsworth co-founded CastAR (formerly Technical Illusions) in 2013 and stayed with the company until it shut down on June 26, 2017.In late 2014, she moved from Seattle to Mountain View, California with the CastAR team.",
+    contribution:"is a self-taught computer chip designer and creator of the C64 Direct-to-TV",
+    image:"https://upload.wikimedia.org/wikipedia/commons/7/7f/You%27re_one_baaad_cat.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Jeri_Ellsworth"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Lucy Sanders",
+    year:2004,
+    dob:1954,
+    dod:null,
+    info:"is the current CEO and a co-founder of the National Center for Women & Information Technology.[1] She is the recipient of many distinguished honors in the STEM fields, including induction into the US News STEM Leadership Hall of Fame in 2013.",
+    contribution:"co-founded the National Center for Women & Information Technology",
+    image:"https://upload.wikimedia.org/wikipedia/commons/4/47/Lucy_Sanders.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Lucy_Sanders"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Audrey Tang",
+    year:2005,
+    dob:1981,
+    dod:null,
+    info:"is a Taiwanese free software programmer, who has been described as one of the 'ten greats of Taiwanese computing.'In August 2016, she was invited to join the Taiwan Executive Yuan as a minister without portfolio, making her the first transgender official in the top executive cabinet.",
+    contribution:"was the initiator and leader of the Pugs project.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/e5/Audrey_Tang_in_2015_%28cropped%29.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Audrey_Tang"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Mary Lou Jepsen",
+    year:2005,
+    dob:1965,
+    dod:null,
+    info:"is a technical executive and inventor in the fields of display, imaging, and computer hardware. She is the founder of OpenWater,[3] a startup working on fMRI-type imaging of the body using holographic, infrared techniques.[4] In 2016, she joined the board of Lear Corporation, a Detroit-area maker of seats and electronics for cars.
+
+    She was previously an executive at Facebook / Oculus VR.Among her objectives at Facebook was leading a concerted effort to bring Virtual Reality to the next level. Previously she was Head of the Display Division at Google X where she led more than one 'Moon Shot' program, reported to Sergey Brin, and advised and directed display and consumer electronic programs throughout Google. The Wall Street Journal reported that among her projects there she created Google Lego TV: displays composed of smaller screens that plug together like Legos to create vast, seamless images and 'live walls' for wall size interaction, television, video conferencing and gaming, to virtual reality without having to wear anything on your face or body.
+
+    Jepsen previously founded Pixel Qi in Taipei, Taiwan, focused on innovative opto-electronic architectures and the manufacturer thereof. Pixel Qi aimed to deliver high performance, low-power, sunlight-readable screens for mobile devices. The long term vision of Pixel Qi was to create devices that never need be recharged through a two prong approach 1) lowering the power consumption of the device through innovative screen and power management technology and 2) using alternative power generation and battery technologies.
+
+    She was the co-founder and first chief technology officer of One Laptop per Child (OLPC) a non-profit that generated more than $1B in revenue and helped create $30B in revenue for its for-profit partners. There she designed the $100 laptop with new screen architectures, new very low power management architecture, new battery technology, new mesh networking protocol, and new user interface, and shipped millions of them to children in the developing world.
+
+    In 2008 she was named to the Time 100, and In 2013 she was named to CNN's top 10 thinkers in science and technology, for her work in rethinking functional brain imaging.She is also a member of the Xconomists, an ad hoc team of editorial advisors for the tech news and media company, Xconomy.",
+    contribution:"was the founder and chief technology officer of One Laptop Per Child (OLPC), and the founder of Pixel Qi.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mary_Lou_Jepsen_in_Lab.jpg/1280px-Mary_Lou_Jepsen_in_Lab.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Lou_Jepsen"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Maria Klawel",
+    year:2006,
+    dob:1951,
+    dod:null,
+    info:"is a computer scientist and the fifth president of Harvey Mudd College (since July 1, 2006).Born in Toronto in 1951, she became a naturalized U.S. citizen in 2009. She was previously Dean of the School of Engineering and Applied Science at Princeton University.",
+    contribution:"was the first woman to become president of the Harvey Mudd College since its founding in 1955 and was ACM president from 2002 until 2004.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/36/Maria_Klawe_2015.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Maria_Klawe"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Melanie Rieback",
+    year:2006,
+    dob:null,
+    dod:null,
+    info:"is a computer scientist, chiefly known for her work regarding the privacy and security of RFID (radio frequency identification) technology.",
+    contribution:"research concerns the security and privacy of Radio Frequency Identification (RFID) technology, she is known to have programmed the first virus to infect RFID devices.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/ee/Melanie_Rieback_at_the_SingularityU_The_Netherlands_Summit_2016_%2829027699274%29_%28cropped%29.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Melanie_Rieback"
   },
   {
-    name:"",
-    year:,
+    name:"Joanna Rutkowska",
+    year:2006,
     dob:,
     dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    info:"is a Polish computer security researcher, primarily known for her research on low-level security and stealth malware - and as founder of the Qubes OS security-focused desktop operating system.
+
+    She became known in the security community after the Black Hat Briefings conference in Las Vegas in August 2006, where Rutkowska presented an attack against Vista kernel protection mechanism, and also a technique dubbed Blue Pill, that used hardware virtualization to move a running OS into a virtual machine. Subsequently, she has been named one of Five Hackers who Put a Mark on 2006 by eWeek Magazine for her research on the topic. The original concept of Blue Pill was published by another researcher at IEEE Oakland on May 2006 under the name VMBR.
+
+    During the following years, Rutkowska continued to focus on low-level security. In 2007 she demonstrated that certain types of hardware-based memory acquisition (e.g. FireWire based) are unreliable and can be defeated.Later in 2007, together with a team member Alexander Tereshkin, presented further research on virtualization malware.In 2008, Rutkowska with her team focused on Xen hypervisor security.In 2009, together with a team member Rafal Wojtczuk, presented an attack against Intel Trusted Execution Technology and Intel System Management Mode.
+
+    In April 2007, Rutkowska founded Invisible Things Lab in Warsaw, Poland. The company focuses on OS and VMM security research and provides various consulting services.
+
+    In 2010, she and Rafal Wojtczuk began working on the Qubes OS security-oriented desktop Xen distribution, which utilizes Fedora Linux. The initial release of Qubes 1.0 was completed by September 3, 2012 and is available as a free download.Its main concept is 'security by compartmentalization', using domains implemented as lightweight Xen virtual machines to isolate various subsystems. Each compartment is referred to as a Qube, which operates as a separate hardware level virtual machine. The project refers to itself as 'a reasonably secure operating system' and has received endorsements by numerous privacy and security experts.[citation needed] It is fairly unique in its capabilities, having a design informed by research on proven vulnerabilities in the trusted compute base (TCB), that are unaddressed in most common desktop operating systems.
+
+    She has published seminal works on systems trustability, most recently Intel x86 Considered Harmful and State Considered Harmful - A Proposal for a Stateless Laptop.Rutkowska has been invited as an esteemed presenter at security conferences, such as Chaos Communication Congress, Black Hat Briefings, HITB, RSA Conference, RISK, EuSecWest & Gartner IT Security Summit.",
+    contribution:"presented Blue Pill, a rootkit based on x86 virtualization, at the Black Hat Briefings computer security conference.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/LinuxCon_Europe_Joanna_Rutkowska_03.jpg/1024px-LinuxCon_Europe_Joanna_Rutkowska_03.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Joanna_Rutkowska"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
+    name:"Megan Smith",
+    year:2014,
+    dob:null,
+    dod:null,
+    info:"was the 3rd Chief Technology Officer of the United States (U.S. CTO) and Assistant to the President, serving under President Barack Obama. She was previously a vice president at Google, leading new business development at Google for nine years, was general manager of Google.org,a vice president at Google[x] and the former CEO of Planet Out.She serves on the boards of MIT and Vital Voices, was a member of the USAID Advisory Committee on Voluntary Aid and co-founded the Malala Fund.On September 4, 2014, she was named as the third (and first female) U.S. CTO, succeeding Todd Park, and serving until January, 2017.",
+    contribution:"named third (and first female) Chief Technology Officer of the United States of America (USCTO), succeeding Todd Park.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Megan_Smith_official_portrait.jpg/1024px-Megan_Smith_official_portrait.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Megan_Smith"
   },
   {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
+    name:"Sarah Sharp",
+    year:2015,
+    dob:1985,
+    dod:null,
+    info:"is a software engineer who has worked extensively on the Linux kernel, including serving on the Linux Foundation's Technical Advisory Board for two years.Sharp began working on the kernel in 2006 as an undergraduate at Portland State University, and later through an Intel undergraduate research grant.Sharp's contributions to the kernel include writing and acting as a maintainer for its USB 3.0 driver.Sharp stepped down from direct work on the kernel on 5 October 2015, citing the abrasive communication style and 'abusive commentary [on submitted patches]'' of the maintainer community.
+
+    Sharp is also a volunteer co-coordinator of the Outreachy project,and led a team contributing to the Linux kernel for the project's June 2013 internships.
+
+    Sharp won the first annual Red Hat Women in Open Source Community Award in 2015 for 'efforts in improving communications and inviting women into open source communities' and the 2016 O'Reilly Open Source Award for accomplishments in the open source community.
+
+    In 2017, Sharp changed their pronouns to they/them and their first name from Sarah to Sage.",
+    contribution:"is the first winner of the annual Women in Open Source Community Award, awarded by RedHat.",
     image:"",
-    wiki:""
-  },
-  {
-    name:"",
-    year:,
-    dob:,
-    dod:,
-    info:"",
-    contribution:"",
-    image:"",
-    wiki:""
-  },
+    wiki:"https://en.wikipedia.org/wiki/Sage_Sharp"
+  }
 
 ])
