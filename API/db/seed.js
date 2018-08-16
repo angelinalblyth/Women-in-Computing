@@ -392,6 +392,16 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Lorinda_Cherry"
   },
   {
+    name:"Janese Swanson",
+    year:1983,
+    dob:1958,
+    dod:null,
+    info:"is an American inventor and software developer. Swanson co-developed the first of the Carmen Sandiego educational games, and founded the company Girl Tech,which creates products aimed at making technology more interesting for girls. She has developed award-winning curricula, electronic toys, and books that encourage girls to explore technology and inventions. Her toy inventions include the Snoop Stopper Keepsake Box, Me-Mail Message Center, Zap N’ Lock Journal, and Swap-It Locket. Her publications include Tech Girl's Internet Adventures, Tech Girl's Activity Book, and Girlzine: A Magazine for the Global Girl.",
+    contribution:"(with others) developed the first of the Carmen Sandiego games. She went on to found Girl Tech. Girl Tech develops products and services that encourage girls to use new technologies, such as the Internet and video games.",
+    image:"",
+    wiki:"https://en.wikipedia.org/wiki/Janese_Swanson"
+  },
+  {
     name:"",
     year:,
     dob:,
