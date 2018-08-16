@@ -245,11 +245,41 @@ db.timeline_women.insert([
     name:"Erna Schneider Hoover",
     year: 1971,
     dob: 1926,
-    dod:,
+    dod:null,
     info:"is an American mathematician notable for inventing a computerized telephone switching method which 'revolutionized modern communication' according to several reports.It prevented system overloads by monitoring call center traffic and prioritizing tasks on phone switching systems to enable more robust service during peak calling times.At Bell Laboratories where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
     contribution:"is an American mathematician notable for inventing a computerized telephone switching method which developed modern communication according to several reports. At Bell Laboratories, where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
     image:"",
     wiki:"https://en.wikipedia.org/wiki/Erna_Schneider_Hoover"
+  },
+  {
+    name:"Margaret Burnett",
+    year:1971,
+    dob:1949,
+    dod:null,
+    info:"",
+    contribution:"became the first woman software developer ever hired by Procter & Gamble/Ivorydale, a 13,000-employee complex that included their R&D center. Her position as a software developer also made her the first woman ever hired into a management-level position there.",
+    image:"",
+    wiki:""
+  },
+  {
+    name:"Mary Shaw",
+    year:1972,
+    dob:1943,
+    dod:null,
+    info:"is an American software engineer, and the Alan J. Perlis Professor of Computer Science in the School of Computer Science at Carnegie Mellon University, known for her work in the field of software architecture.",
+    contribution:"became the first woman to earn a Ph.D. in Computer Science from Carnegie Mellon University.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/7/7a/Mary-shaw.png",
+    wiki:"https://en.wikipedia.org/wiki/Mary_Shaw_(computer_scientist)"
+  },
+  {
+    name:"Adele Goldberg",
+    year:1972,
+    dob: 1945,
+    dod:null,
+    info:"is a computer scientist who participated in developing the programming language Smalltalk-80 and various concepts related to object-oriented programming while a researcher at the Xerox Palo Alto Research Center (PARC), in the 1970s.",
+    contribution:"was one of developers of the Smalltalk language.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/3/36/Adele_Goldberg_at_PyCon_2007.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
   },
   {
     name:"",
