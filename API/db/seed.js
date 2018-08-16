@@ -36,7 +36,7 @@ db.timeline_women.insert([
     year:1940,
     dob:1943,
     dod:1945,
-    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women 'computers' used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand.[9] Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
+    info:"American women were recruited to do ballistics calculations and program computers during WWII. Around 1943–1945, these women 'computers' used a differential analyzer in the basement of the Moore School of Electrical Engineering to speed up their calculations, though the machine required a mechanic to be totally accurate and the women often rechecked the calculations by hand. Phyllis Fox ran a differential analyzer single-handedly, with differential equations are her program specification",
     contribution:"",
     image:"",
     wiki:""
@@ -56,7 +56,7 @@ db.timeline_women.insert([
     year:1943,
     dob:,
     dod:,
-    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
+    info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers. This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
     contribution:"",
     image:"",
     wiki:""
@@ -96,8 +96,8 @@ db.timeline_women.insert([
     year:1948,
     dob:1922,
     dod:,
-    info:"wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London.[3] She helped design three different machines including the ARC, SEC, and APE(X)C.",
-    contribution:"s credited with writing the assembly language for the ARC2 computer.",
+    info:"wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London. She helped design three different machines including the ARC, SEC, and APE(X)C.",
+    contribution:"is credited with writing the assembly language for the ARC2 computer.",
     image:"",
     wiki:"https://en.wikipedia.org/wiki/Kathleen_Booth"
   },
