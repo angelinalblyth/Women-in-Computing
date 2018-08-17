@@ -26,11 +26,11 @@ class MainContainer extends React.Component {
         <Router>
           <React.Fragment>
             <Header/>
-            <Route exact path="/" render= {() =>
-              <TimeLineContainer women={this.state.women}/>
+            <Route exact path="/" render= {({match}) =>
+              <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-            <Route path="/:index" render = {() =>
-              <TimeLineContainer women={this.state.women}/>
+            <Route path="/:index" render = {({match}) =>
+              <TimeLineContainer women={this.state.women} match={match}/>
             }/>
 
           <Footer/>
