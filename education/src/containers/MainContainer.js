@@ -3,6 +3,7 @@ import TimeLineContainer from './TimeLineContainer.js';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import InfoContainer from './InfoContainer.js';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -21,15 +22,26 @@ class MainContainer extends React.Component {
 
 
   render(){
-  
     return (
-      <React.Fragment>
-        <Header/>
-        <TimeLineContainer women={this.state.women}/>
-        <Footer/>
-      </React.Fragment>
-    );
-  }
+        <Router>
+          <React.Fragment>
+            <Header/>
+            <Route exact path="/" render= {() =>
+              <TimeLineContainer women={this.state.women}/>
+            }/>
+            <Route path="/:index" render = {() =>
+              <TimeLineContainer women={this.state.women}/>
+            }/>
+
+          <Footer/>
+        </React.Fragment>
+      </Router>
+
+
+
+  );
+}
+
 }
 
 

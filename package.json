@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/angelinalblyth/Women-in-Computing/issues"
   },
-  "homepage": "https://github.com/angelinalblyth/Women-in-Computing#readme"
+  "homepage": "https://github.com/angelinalblyth/Women-in-Computing#readme",
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
+  }
 }
