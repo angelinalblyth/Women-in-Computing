@@ -20,6 +20,37 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}))
   }
 
+  handleSelectedChange(event){
+    //get back the event
+    //check the number of the key
+    //if left minus the index
+    //if right add to the index
+    console.log(event);
+
+    document.onkeydown = checkKey;
+
+    function checkKey(key) {
+
+        key = key || window.event;
+        if (key.keyCode == '37') {
+          alert("left clicked");
+           // left arrow
+           //it minus the index of the url by 1
+        }
+        else if (key.keyCode == '39') {
+          alert("right clicked");
+           // right arrow
+           //it pluses the index of the url by 1
+        }
+
+        // props.match.params.index turn into int
+
+    }
+
+
+    }
+
+
 
   render(){
     return (
@@ -29,9 +60,11 @@ class MainContainer extends React.Component {
             <Route exact path="/" render= {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
+            <button onKeyDown={this.handleSelectedChange}>
             <Route path="/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
+          </button>
 
           <Footer/>
         </React.Fragment>
@@ -43,6 +76,8 @@ class MainContainer extends React.Component {
 }
 
 }
+
+
 
 
 export default MainContainer;
