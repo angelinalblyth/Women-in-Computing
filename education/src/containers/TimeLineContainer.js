@@ -2,15 +2,21 @@ import React from 'react';
 import InfoContainer from './InfoContainer.js'
 
 const TimeLineContainer = (props) => {
-const individualwoman = props.women.map((lady, index)=>{
-  return <InfoContainer key={index} lady={lady}/>
-})
+  console.log(props);
+  const array = [];
+  for(let lady of props.women){
+    array.push(<InfoContainer woman = {lady}/>)
+  }
+  console.log(array);
+// const individualwoman = props.women.map((lady, index)=>{
+//   return <InfoContainer key={index} lady={lady}/>
+// })
 
-console.log(individualwoman.name);
+
 
   return(
     <p>
-    {individualwoman.name}
+    {array}
 
   </p>
   )

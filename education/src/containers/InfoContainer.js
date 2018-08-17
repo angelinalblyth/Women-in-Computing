@@ -5,11 +5,10 @@ import InfoComponent from '../components/InfoComponent.js';
 
 const InfoContainer = (props) => {
   return(
-      <React.Fragment>
-        <InnerComponent/>
-        <ImageComponent/>
-        <InfoComponent />
-      </React.Fragment>
+      // <React.Fragment>
+      //   <InnerComponent/>
+      // </React.Fragment>
+      <p>{props.woman}</p>
     )
   }
 

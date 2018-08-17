@@ -4,6 +4,8 @@ const InnerComponent =(props) => {
 
   return(
     <p>Hello</p>
+    //   <ImageComponent/>
+    //   <InfoComponent />
   )
 }
 

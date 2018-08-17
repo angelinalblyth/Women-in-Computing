@@ -19,7 +19,9 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}))
   }
 
+
   render(){
+    console.log(this.state.women);
     return (
       <React.Fragment>
         <Header/>
