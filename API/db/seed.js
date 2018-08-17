@@ -660,6 +660,16 @@ db.timeline_women.insert([
     contribution:"is the first winner of the annual Women in Open Source Community Award, awarded by RedHat.",
     image:"",
     wiki:"https://en.wikipedia.org/wiki/Sage_Sharp"
+  },
+  {
+    name:"{G6} Women",
+    year: 2018,
+    dob: null,
+    dob: null,
+    info: "the future world leaders in Software Development take part in the CodeClan 16-week Software Development Course, they will all appear on this list in the future.",
+    contribution: "To be realised",
+    image:"",
+    wiki:"https://codeclan.com/courses/16-week-course/"
   }
 
 ])
