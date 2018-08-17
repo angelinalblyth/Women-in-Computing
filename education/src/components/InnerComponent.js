@@ -3,9 +3,7 @@ import React from 'react';
 const InnerComponent =(props) => {
 
   return(
-    <p>Hello</p>
-    //   <ImageComponent/>
-    //   <InfoComponent />
+    <p>{props.name}</p>
   )
 }
 

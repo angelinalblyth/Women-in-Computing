@@ -8,7 +8,11 @@ const InfoContainer = (props) => {
       // <React.Fragment>
       //   <InnerComponent/>
       // </React.Fragment>
+      <div>
+        <img src={props.image} alt="Image"/>
       <p>{props.name}</p>
+      <p>{props.year}</p>
+      </div>
     )
   }
 
