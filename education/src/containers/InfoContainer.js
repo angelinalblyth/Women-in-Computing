@@ -1,15 +1,18 @@
 import React from 'react';
+import InnerComponent from '../components/InnerComponent.js';
+import ImageComponent from '../components/ImageComponent.js';
+import InfoComponent from '../components/InfoComponent.js';
 
-class InfoContainer extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = []
-  }
-  render(){
-    return(
-      <h3>all the interesting stuff goes here</h3>
+const InfoContainer = (props) => {
+  return(
+      <React.Fragment>
+        <InnerComponent/>
+        <ImageComponent/>
+        <InfoComponent />
+      </React.Fragment>
     )
   }
-}
 
-export default InfoContainer;
+
+
+  export default InfoContainer;
