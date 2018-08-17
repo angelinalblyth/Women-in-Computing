@@ -21,7 +21,7 @@ class MainContainer extends React.Component {
 
 
   render(){
-    console.log(this.state.women);
+  
     return (
       <React.Fragment>
         <Header/>

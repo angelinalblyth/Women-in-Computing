@@ -8,7 +8,7 @@ const InfoContainer = (props) => {
       // <React.Fragment>
       //   <InnerComponent/>
       // </React.Fragment>
-      <p>{props.woman}</p>
+      <p>{props.name}</p>
     )
   }
 
