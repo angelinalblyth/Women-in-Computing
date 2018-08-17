@@ -1,5 +1,6 @@
 import React from 'react';
 import InfoContainer from './InfoContainer.js'
+import "./TimeLineContainer.css";
 
 const TimeLineContainer = (props) => {
 
@@ -7,7 +8,7 @@ const TimeLineContainer = (props) => {
     let index = parseInt(props.match.params.index);
     let womenSubList = props.women.slice(index, index+3);
     return(
-      <div>
+      <div className="timeline">
         {womenSubList.map((lady, index)=>{
           return(
             <InfoContainer
