@@ -60,11 +60,11 @@ class MainContainer extends React.Component {
             <Route exact path="/" render= {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-            <button onKeyDown={this.handleSelectedChange}>
+
             <Route path="/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-          </button>
+          
 
           <Footer/>
         </React.Fragment>

@@ -1,19 +1,19 @@
 .info_tile {
-  height: 100%;
+  height: 300px;
   width: 30%;
   perspective: 1000px;
-  margin: 25px;
+  margin: 15px;
 }
 
 .info_container {
   transform: rotate(0);
   margin: 0 auto;
   background-color: #fff;
-  width: 400px;
-  height: 220px;
+  max-width: 90%;
+  height: 180px;
   box-shadow: 5px 5px 20px;
   cursor: pointer;
-  perspective: 400px;
+  perspective: 100px;
   overflow: hidden;
 }
 
@@ -22,21 +22,37 @@
 }
 
 .image_container {
-  height: 220px;
-  width: 420px;
-  background-size: 100% 100%;
+  height: 180px;
+  width: auto;
+  max-width: 100%;
+  background-size: auto 100%;
   margin: 0px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  font-size: 10px;
 }
 
-.image_container:hover {
+/* .image_container:hover {
   animation: hover_image_container 1s forwards;
-}
+  background-position: center;
+} */
 
 .info_div {
   font-size: 12px;
   font-family: sans-serif;
   line-height: 20px;
-  margin: 0px 20px;
+  margin: 5px 20px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background: rgb(211, 211, 211); /* Fallback */
+    background: rgba(211, 211, 211, 0.5);
 }
 
 @keyframes hover {
@@ -51,7 +67,7 @@
   100% {
     transform: rotateY(0deg);
     width: 420px;
-    height: 440px;
+    height: 300px;
   }
 }
 
