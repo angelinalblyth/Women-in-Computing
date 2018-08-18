@@ -31,48 +31,49 @@ class MainContainer extends React.Component {
 
     function checkKey(key) {
 
-        key = key || window.event;
-        if (key.keyCode == '37') {
-          alert("left clicked");
-           // left arrow
-           //it minus the index of the url by 1
-        }
-        else if (key.keyCode == '39') {
-          alert("right clicked");
-           // right arrow
-           //it pluses the index of the url by 1
-        }
+      key = key || window.event;
+      if (key.keyCode == '37') {
+        alert("left clicked");
+        // left arrow
+        //it minus the index of the url by 1
+      }
+      else if (key.keyCode == '39') {
+        alert("right clicked");
+        // right arrow
+        //it pluses the index of the url by 1
+      }
 
-        // props.match.params.index turn into int
-
-    }
-
+      // props.match.params.index turn into int
 
     }
+
+
+  }
 
 
 
   render(){
     return (
-        <Router>
-          <React.Fragment>
-            <Header/>
-            <Route exact path="/" render= {({match}) =>
-              <TimeLineContainer women={this.state.women} match={match}/>
-            }/>
-            <button onKeyDown={this.handleSelectedChange}>
-            <Route path="/:index" render = {({match}) =>
-              <TimeLineContainer women={this.state.women} match={match}/>
-            }/>
-          </button>
+      <Router>
+        <React.Fragment>
+          <Header/>
+          <Route exact path="/" render= {({match}) =>
+          <TimeLineContainer women={this.state.women} match={match}/>
+        }/>
 
-          <Footer/>
-        </React.Fragment>
-      </Router>
+        <Route path="/:index" render = {({match}) =>
+        <TimeLineContainer women={this.state.women} match={match}/>
+      }/>
+
+      <button type="button" onClick="leftClickHandle">Back</button>
+      <button type="button" onClick="rightClickHandle">Forward</button>
+      <Footer/>
+    </React.Fragment>
+  </Router>
 
 
 
-  );
+);
 }
 
 }
