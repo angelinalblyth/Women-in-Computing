@@ -7,11 +7,20 @@ const TimeLineContainer = (props) => {
   if (props.match.params !== 0) {
     let index = parseInt(props.match.params.index);
     let womenSubList = props.women.slice(index, index+3);
+    let position = "";
+    if (index % 2 === 0) {
+      position = "zero";
+    } else {
+      position = "one";
+    }
+
     return(
       <div className="timeline">
         {womenSubList.map((lady, index)=>{
+          console.log(index);
           return(
             <InfoContainer
+              index={position}
               key={index}
               name={lady.name}
               year={lady.year}

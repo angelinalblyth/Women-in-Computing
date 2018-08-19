@@ -10,7 +10,7 @@ const InfoContainer = (props) => {
       // <React.Fragment>
       //   <InnerComponent/>
       // </React.Fragment>
-      <div className="info_tile">
+      <div className="info_tile" id={props.index}>
         <div className="info_container">
           <div className="image_container" style={{backgroundImage: `url(${props.image})` }}>
             <div className="bottom-left">

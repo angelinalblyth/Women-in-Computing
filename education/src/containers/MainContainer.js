@@ -4,6 +4,7 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import InfoContainer from './InfoContainer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "../App.css";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -64,7 +65,7 @@ class MainContainer extends React.Component {
             <Route path="/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-          
+
 
           <Footer/>
         </React.Fragment>
