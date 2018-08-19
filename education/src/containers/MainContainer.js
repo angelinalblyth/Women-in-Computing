@@ -11,6 +11,8 @@ class MainContainer extends React.Component {
     this.state = {
       women: []
     };
+    this.handleBackClick = this.handleBackClick.bind(this);
+    this.handleForwardClick = this.handleForwardClick.bind(this);
   }
 
   componentDidMount(){
@@ -21,12 +23,12 @@ class MainContainer extends React.Component {
   }
 
 
-  leftClickHandle(){
-    console.log("left clicked");
+  handleBackClick({index}){
+    console.log({index});
   }
 
-  rightClickHandle(){
-
+  handleForwardClick({index}){
+console.log({index});
   }
 
 
@@ -44,8 +46,8 @@ class MainContainer extends React.Component {
         <TimeLineContainer women={this.state.women} match={match}/>
       }/>
 
-      <button type="button" onClick="leftClickHandle"> &laquo; </button>
-      <button type="button" onClick="rightClickHandle"> &raquo; </button>
+      <button type="button" onClick={this.handleBackClick}> &laquo; </button>
+      <button type="button" onClick={this.handleForwardClick}> &raquo; </button>
       <Footer/>
     </React.Fragment>
   </Router>
