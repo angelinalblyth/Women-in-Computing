@@ -5,6 +5,7 @@ import Footer from '../components/Footer.js';
 import InfoContainer from './InfoContainer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../App.css";
+import _ from "lodash";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -18,7 +19,7 @@ class MainContainer extends React.Component {
     fetch("http://localhost:3001/timeline")
     .then(responseText => responseText.json())
     // .then(women => console.log({women}))
-    .then(women => this.setState({women}))
+    .then(women => this.setState({women}));
   }
 
   handleSelectedChange(event){

@@ -1,12 +1,14 @@
 import React from 'react';
 import InfoContainer from './InfoContainer.js'
 import "./TimeLineContainer.css";
+import _ from "lodash";
 
 const TimeLineContainer = (props) => {
 
   if (props.match.params !== 0) {
     let index = parseInt(props.match.params.index);
-    let womenSubList = props.women.slice(index, index+3);
+    let orderedList = _.orderBy(props.women, ["year"], ["asc"]);
+    let womenSubList = orderedList.slice(index, index+3);
     let position = "";
     if (index % 2 === 0) {
       position = "zero";

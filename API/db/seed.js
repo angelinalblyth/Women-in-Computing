@@ -3,16 +3,6 @@ db.dropDatabase()
 
 db.timeline_women.insert([
   {
-    name:'Ada Lovelace',
-    year: 1842,
-    dob:1815,
-    dod:1851,
-    info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
-    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a computing machine and the first computer programmer",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
-    wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
-  },
-  {
     name:"Henrietta Swan Leavitt",
     year:1893,
     dob:1868,
@@ -21,6 +11,16 @@ db.timeline_women.insert([
     contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law).",
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg",
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    name:'Ada Lovelace',
+    year: 1842,
+    dob:1815,
+    dod:1851,
+    info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
+    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a computing machine and the first computer programmer",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
   },
   {
     name:"Grete Hermann",
