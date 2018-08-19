@@ -24,22 +24,13 @@ class MainContainer extends React.Component {
 
   handleBackClick = (event) =>{
     event.preventDefault();
-    let urlIndex = window.location.href;
-    console.log(urlIndex);
-    console.log("Back button clicked");
-    // Get current url
-    // minus one from the index
-    // if index is already at 1-0 then dont minus.
-    // return the new url to the route
-
+    window.history.go(-1);
 
   }
 
   handleForwardClick = (event) =>{
     event.preventDefault();
-    console.log(window.location.href);
-    console.log("Forward button clicked");
-
+    window.history.go(1);
 
   }
 
