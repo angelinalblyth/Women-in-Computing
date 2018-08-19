@@ -23,6 +23,15 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
   },
   {
+    name:"Hedy Lamarr",
+    year:1941,
+    dob:1914,
+    dod:2000,
+    info:"Although better known for her Silver Screen exploits, Austrian actress Hedy Lamarr (born Hedwig Eva Maria Kiesler) also became a pioneer in the field of wireless communications following her emigration to the United States. The international beauty icon, along with co-inventor George Anthiel, developed a \"Secret Communications System\" to help combat the Nazis in World War II. By manipulating radio frequencies at irregular intervals between transmission and reception, the invention formed an unbreakable code to prevent classified messages from being intercepted by enemy personnel.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg/440px-Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Hedy_Lamarr#Inventor"
+  },
+  {
     name:"Grete Hermann",
     year:1926,
     dob:1901,
