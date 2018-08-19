@@ -2,7 +2,6 @@ import React from 'react';
 import TimeLineContainer from './TimeLineContainer.js';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
-import InfoContainer from './InfoContainer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class MainContainer extends React.Component {
@@ -25,8 +24,14 @@ class MainContainer extends React.Component {
 
   handleBackClick = (event) =>{
     event.preventDefault();
-    console.log(window.location.href);
+    let urlIndex = window.location.href;
+    console.log(urlIndex);
     console.log("Back button clicked");
+    // Get current url
+    // minus one from the index
+    // if index is already at 1-0 then dont minus.
+    // return the new url to the route
+
 
   }
 
@@ -53,8 +58,8 @@ class MainContainer extends React.Component {
         <TimeLineContainer women={this.state.women} match={match}/>
       }/>
 
-      <button type="button" onClick={this.handleBackClick}> &laquo; </button>
-      <button type="button" onClick={this.handleForwardClick}> &raquo; </button>
+      <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+      <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
       <Footer/>
     </React.Fragment>
   </Router>

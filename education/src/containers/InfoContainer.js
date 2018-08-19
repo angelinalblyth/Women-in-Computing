@@ -1,7 +1,4 @@
 import React from 'react';
-import InnerComponent from '../components/InnerComponent.js';
-import ImageComponent from '../components/ImageComponent.js';
-import InfoComponent from '../components/InfoComponent.js';
 import "./InfoContainer.css";
 
 const InfoContainer = (props) => {
@@ -14,7 +11,7 @@ const InfoContainer = (props) => {
         <div className="info_container">
           <div className="image_container" style={{backgroundImage: `url(${props.image})` }}>
 
-          
+
 
           </div>
           <div className="info_div">
