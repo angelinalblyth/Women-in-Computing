@@ -10,16 +10,18 @@ const TimeLineContainer = (props) => {
     let orderedList = _.orderBy(props.women, ["year"], ["asc"]);
     let womenSubList = orderedList.slice(index, index+3);
     let position = "";
+    let timelinePosition = ""
     if (index % 2 === 0) {
       position = "zero";
+      timelinePosition = "zero_time";
     } else {
       position = "one";
+      timelinePosition = "one_time"
     }
 
     return(
-      <div className="timeline">
+      <div className="timeline" id={timelinePosition}>
         {womenSubList.map((lady, index)=>{
-          console.log(index);
           return(
             <InfoContainer
               index={position}
@@ -40,7 +42,7 @@ const TimeLineContainer = (props) => {
   } else {
     let womenSubList = props.women.slice(0, 3);
     return(
-      <div>
+      <div className="timeline">
         {womenSubList.map((lady, index)=>{
           return(
             <InfoContainer
@@ -60,8 +62,6 @@ const TimeLineContainer = (props) => {
       )
   }
 
+}
 
-
-    }
-
-    export default TimeLineContainer;
+export default TimeLineContainer;
