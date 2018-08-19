@@ -23,12 +23,19 @@ class MainContainer extends React.Component {
   }
 
 
-  handleBackClick({index}){
-    console.log({index});
+  handleBackClick = (event) =>{
+    event.preventDefault();
+    console.log(window.location.href);
+    console.log("Back button clicked");
+
   }
 
-  handleForwardClick({index}){
-console.log({index});
+  handleForwardClick = (event) =>{
+    event.preventDefault();
+    console.log(window.location.href);
+    console.log("Forward button clicked");
+
+
   }
 
 
