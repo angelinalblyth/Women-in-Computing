@@ -27,8 +27,8 @@ class MainContainer extends React.Component {
     let action = window.location.pathname.split("/").slice(-1)[0];
     let newIndex = parseInt(action);
     newIndex -=1
-    console.log(newIndex);
     window.history.pushState({path:newIndex},'',newIndex);
+    window.location.reload()
   }
 
   handleForwardClick = (event) =>{
@@ -36,8 +36,8 @@ class MainContainer extends React.Component {
     let action = window.location.pathname.split("/").slice(-1)[0];
     let newIndex = parseInt(action);
     newIndex +=1
-    console.log(newIndex);
     window.history.pushState({path:newIndex},'',newIndex);
+    window.location.reload()
   }
 
 
