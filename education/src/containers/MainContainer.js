@@ -24,14 +24,20 @@ class MainContainer extends React.Component {
 
   handleBackClick = (event) =>{
     event.preventDefault();
-    window.history.go(-1);
-
+    let action = window.location.pathname.split("/").slice(-1)[0];
+    let newIndex = parseInt(action);
+    newIndex -=1
+    console.log(newIndex);
+    window.history.pushState({path:newIndex},'',newIndex);
   }
 
   handleForwardClick = (event) =>{
     event.preventDefault();
-    window.history.go(1);
-
+    let action = window.location.pathname.split("/").slice(-1)[0];
+    let newIndex = parseInt(action);
+    newIndex +=1
+    console.log(newIndex);
+    window.history.pushState({path:newIndex},'',newIndex);
   }
 
 
