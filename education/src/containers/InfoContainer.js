@@ -14,14 +14,14 @@ const InfoContainer = (props) => {
         <div className="info_container">
           <div className="image_container" style={{backgroundImage: `url(${props.image})` }}>
 
-          
+
 
           </div>
           <div className="info_div">
             <p>{props.name}</p>
             <p>{props.year}</p>
-            <p>{props.info}</p>
-            <p>{props.contribution}</p>
+            <p>{props.info.substring(0, 340)}</p>
+            <p><a href={props.wiki}>See More</a></p>
           </div>
         </div>
       </div>
