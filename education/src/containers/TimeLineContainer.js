@@ -1,6 +1,6 @@
 import React from 'react';
 import InfoContainer from './InfoContainer.js'
-import "./TimeLineContainer.css";
+import "../style/TimeLineContainer.css";
 import _ from "lodash";
 
 const TimeLineContainer = (props) => {
