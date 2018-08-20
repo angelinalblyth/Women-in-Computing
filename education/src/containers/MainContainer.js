@@ -4,6 +4,8 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import InfoContainer from './InfoContainer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "../App.css";
+import _ from "lodash";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -17,7 +19,7 @@ class MainContainer extends React.Component {
     fetch("http://localhost:3001/timeline")
     .then(responseText => responseText.json())
     // .then(women => console.log({women}))
-    .then(women => this.setState({women}))
+    .then(women => this.setState({women}));
   }
 
   handleSelectedChange(event){
@@ -31,48 +33,50 @@ class MainContainer extends React.Component {
 
     function checkKey(key) {
 
-        key = key || window.event;
-        if (key.keyCode == '37') {
-          alert("left clicked");
-           // left arrow
-           //it minus the index of the url by 1
-        }
-        else if (key.keyCode == '39') {
-          alert("right clicked");
-           // right arrow
-           //it pluses the index of the url by 1
-        }
+      key = key || window.event;
+      if (key.keyCode == '37') {
+        alert("left clicked");
+        // left arrow
+        //it minus the index of the url by 1
+      }
+      else if (key.keyCode == '39') {
+        alert("right clicked");
+        // right arrow
+        //it pluses the index of the url by 1
+      }
 
-        // props.match.params.index turn into int
-
-    }
-
+      // props.match.params.index turn into int
 
     }
+
+
+  }
 
 
 
   render(){
     return (
+
         <Router>
           <React.Fragment>
             <Header/>
             <Route exact path="/" render= {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-            <button onKeyDown={this.handleSelectedChange}>
+
             <Route path="/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-          </button>
 
-          <Footer/>
-        </React.Fragment>
-      </Router>
+      <button type="button" onClick="leftClickHandle">Back</button>
+      <button type="button" onClick="rightClickHandle">Forward</button>
+      <Footer/>
+    </React.Fragment>
+  </Router>
 
 
 
-  );
+);
 }
 
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Footer = (props) => (
-  <h6>created by *insert hilarious name here*</h6>
+  <div className="footer">
+    <h6>created by *insert hilarious name here*</h6>
+  </div>
 )
 
 export default Footer;

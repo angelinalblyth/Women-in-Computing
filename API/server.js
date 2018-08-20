@@ -9,7 +9,7 @@ server.use(cors());
 server.use(parser.json());
 server.use(parser.urlencoded({extended: true}));
 
-server.use(require('./controllers/index.js'));
+
 
 MongoClient.connect('mongodb://localhost:27017', function(err, client) {
 
@@ -19,7 +19,7 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
   }
   const db = client.db("timelinedb");
 	server.set("db", db);
-
+  server.use(require('./controllers/index.js'));
   // server.get('/timeline', function(req, res){
   //   const timelineCollection = db.collection('timeline_women');
   //   timelineCollection.find().toArray(function(err, allTimeline){
