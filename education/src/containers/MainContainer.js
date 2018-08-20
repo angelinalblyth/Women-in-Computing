@@ -4,7 +4,6 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../App.css";
-import _ from "lodash";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -27,7 +26,7 @@ class MainContainer extends React.Component {
   handleBackClick = (event) =>{
     event.preventDefault();
     let action = window.location.pathname.split("/").slice(-1)[0];
-    let newIndex = parseInt(action);
+    let newIndex = parseInt(action, 10);
     newIndex -=1
     window.history.pushState({path:newIndex},'',newIndex);
     window.location.reload()
@@ -36,7 +35,7 @@ class MainContainer extends React.Component {
   handleForwardClick = (event) =>{
     event.preventDefault();
     let action = window.location.pathname.split("/").slice(-1)[0];
-    let newIndex = parseInt(action);
+    let newIndex = parseInt(action, 10);
     newIndex +=1
     window.history.pushState({path:newIndex},'',newIndex);
     window.location.reload()

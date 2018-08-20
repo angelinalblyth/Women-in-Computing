@@ -2,7 +2,6 @@ import React from 'react';
 import "./InfoContainer.css";
 
 const InfoContainer = (props) => {
-  let image = props.image;
 
   const redirect = () => {
     window.location.href = props.wiki;
