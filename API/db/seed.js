@@ -3,16 +3,6 @@ db.dropDatabase()
 
 db.timeline_women.insert([
   {
-    name:'Ada Lovelace',
-    year: 1842,
-    dob:1815,
-    dod:1851,
-    info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
-    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a computing machine and the first computer programmer",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
-    wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
-  },
-  {
     name:"Henrietta Swan Leavitt",
     year:1893,
     dob:1868,
@@ -21,6 +11,25 @@ db.timeline_women.insert([
     contribution:"After Leavitt's death, Edwin Hubble used the luminosity–period relation for Cepheids, together with spectral shifts first measured by fellow astronomer, Vesto Slipher, at Lowell Observatory to determine that the universe is expanding (see Hubble's law).",
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Leavitt_aavso.jpg",
     wiki:"https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    name:"Hedy Lamarr",
+    year:1941,
+    dob:1914,
+    dod:2000,
+    info:"Although better known for her Silver Screen exploits, Austrian actress Hedy Lamarr (born Hedwig Eva Maria Kiesler) also became a pioneer in the field of wireless communications following her emigration to the United States. The international beauty icon, along with co-inventor George Anthiel, developed a \"Secret Communications System\" to help combat the Nazis in World War II. By manipulating radio frequencies at irregular intervals between transmission and reception, the invention formed an unbreakable code to prevent classified messages from being intercepted by enemy personnel.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg/440px-Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Hedy_Lamarr#Inventor"
+  },
+  {
+    name:'Ada Lovelace',
+    year: 1842,
+    dob:1815,
+    dod:1851,
+    info:"was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.",
+    contribution: "As a result, she is sometimes regarded as the first to recognise the full potential of a computing machine and the first computer programmer",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1024px-Ada_Lovelace_portrait.jpg",
+    wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
   },
   {
     name:"Grete Hermann",

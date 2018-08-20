@@ -3,6 +3,8 @@ import TimeLineContainer from './TimeLineContainer.js';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "../App.css";
+import _ from "lodash";
 
 class MainContainer extends React.Component {
   constructor(props){
@@ -18,7 +20,7 @@ class MainContainer extends React.Component {
     fetch("http://localhost:3001/timeline")
     .then(responseText => responseText.json())
     // .then(women => console.log({women}))
-    .then(women => this.setState({women}))
+    .then(women => this.setState({women}));
   }
 
 
@@ -44,16 +46,17 @@ class MainContainer extends React.Component {
 
   render(){
     return (
-      <Router>
-        <React.Fragment>
-          <Header/>
-          <Route exact path="/" render= {({match}) =>
-          <TimeLineContainer women={this.state.women} match={match}/>
-        }/>
 
-        <Route path="/:index" render = {({match}) =>
-        <TimeLineContainer women={this.state.women} match={match}/>
-      }/>
+        <Router>
+          <React.Fragment>
+            <Header/>
+            <Route exact path="/" render= {({match}) =>
+              <TimeLineContainer women={this.state.women} match={match}/>
+            }/>
+
+            <Route path="/:index" render = {({match}) =>
+              <TimeLineContainer women={this.state.women} match={match}/>
+            }/>
 
       <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
       <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
