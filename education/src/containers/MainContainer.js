@@ -4,9 +4,11 @@ import YearContainer from "./YearContainer.js";
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "../style/App.css";
+import "../style/Button.css";
 // import { Redirect } from 'react-router-dom';
-import "../App.css";
 import _ from "lodash";
+
 
 class MainContainer extends React.Component {
   constructor(props){

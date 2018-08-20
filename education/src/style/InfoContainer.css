@@ -7,11 +7,11 @@
 
 .info_container {
   transform: rotate(0);
-  /* margin: 0 auto; */
-  background-color: #fff;
-  max-width: 90%;
+  max-width: 100%;
   height: 180px;
-  box-shadow: 5px 5px 20px;
+  -moz-box-shadow-bottom: 4px 4px 4px black;
+  -webkit-box-shadow-bottom: 4px 4px 4px black;
+  box-shadow-bottom: 4px 4px 4px black;
   cursor: pointer;
   perspective: 100px;
   overflow: hidden;
@@ -19,11 +19,6 @@
   margin-top: 25px;
   padding: 0% 5% 0% 5%;
 }
-
-/* .info_tile:nth-of-type(2) .info_container {
-  background: LightSteelBlue;
-  bottom: 25px;
-} */
 
 #one:nth-of-type(2) .info_container{
   bottom: 25px;
@@ -50,8 +45,8 @@
 }
 
 /* .image_container:hover {
-  animation: hover_image_container 1s forwards;
-  background-position: center;
+animation: hover_image_container 1s forwards;
+background-position: center;
 } */
 
 .info_div {
@@ -61,6 +56,7 @@
   margin: 5px 20px;
   height: 100px;
   overflow-y: scroll;
+  /* background: rgba(211, 211, 211, 0.5); */
 }
 
 .bottom-left {
@@ -68,7 +64,9 @@
   bottom: 8px;
   left: 16px;
   background: rgb(211, 211, 211); /* Fallback */
-  background: rgba(211, 211, 211, 0.5);
+  background: rgba(192, 208, 211, 0.5);
+  border: 0.5px solid black;
+  padding: 1%;
 }
 
 @keyframes hover {
