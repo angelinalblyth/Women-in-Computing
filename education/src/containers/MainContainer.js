@@ -1,26 +1,44 @@
 import React from 'react';
 import TimeLineContainer from './TimeLineContainer.js';
+import YearContainer from "./YearContainer.js";
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../style/App.css";
 import "../style/Button.css";
+// import { Redirect } from 'react-router-dom';
+import _ from "lodash";
+
 
 class MainContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      women: []
+      women: [],
+      dropList: []
     };
     this.handleBackClick = this.handleBackClick.bind(this);
     this.handleForwardClick = this.handleForwardClick.bind(this);
+  }
+
+
+  generateDropList(){
+    let orderedList = _.orderBy(this.state.women, ["year"], ["asc"]);
+    let listItems = [];
+    for (let item of orderedList) {
+      if (_.includes(listItems), item.year ) {
+        listItems.push(item.year);
+      }
+    }
+    let uniqList = _.uniq(listItems);
+    this.setState({dropList: uniqList});
   }
 
   componentDidMount(){
     fetch("http://localhost:3001/timeline")
     .then(responseText => responseText.json())
     // .then(women => console.log({women}))
-    .then(women => this.setState({women}));
+    .then(women => this.setState({women}, this.generateDropList));
   }
 
 
@@ -42,6 +60,29 @@ class MainContainer extends React.Component {
     window.location.reload()
   }
 
+  createSelect(){
+    return (
+      this.state.dropList.map((item, index)=>{
+        return(
+          <option key={index} value={item}>{item}</option>
+        );
+      })
+    );
+  }
+
+  onDropdownSelected = (event) => {
+    event.preventDefault();
+    let action = event.target.value;
+    let year = parseInt(action, 10);
+
+    window.location.href = "http://localhost:3000/timeline/year/" + year;
+    // let routeString = "/year/" + year;
+    // this.redirect(routeString);
+  }
+
+  // redirect(route){
+  //   return <Redirect to= {route} />
+  // }
 
 
   render(){
@@ -53,13 +94,21 @@ class MainContainer extends React.Component {
             <Route exact path="/" render= {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-
-            <Route path="/:index" render = {({match}) =>
+            <Route path="/timeline/year/:year" render = {({match}) =>
+              <YearContainer women={this.state.women} match={match}/>
+            }/>
+            <Route path="/timeline/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
 
-      <div class="button-div">
+
+      <div className="button-div">
         <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+
+        <select onChange={this.onDropdownSelected}>
+          {this.createSelect()}
+        </select>
+
         <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
       </div>
       <Footer/>
