@@ -25,12 +25,10 @@
 } */
 
 #one:nth-of-type(2) .info_container{
-  background: LightSteelBlue;
   bottom: 25px;
 }
 
 #zero:nth-of-type(2n-1) .info_container{
-  background: LightSteelBlue;
   bottom: 25px;
 }
 

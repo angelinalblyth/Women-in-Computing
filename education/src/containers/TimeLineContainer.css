@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   overflow-x: auto;
   margin: 5px;
-  margin-top: 20px;
-  border: solid;
+  margin-top: 7%;
+  /*border: solid;*/
   height: 100%;
   /* background-image: url(../components/background_image.png); */
   background-repeat: no-repeat;

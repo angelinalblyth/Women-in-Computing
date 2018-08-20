@@ -58,8 +58,10 @@ class MainContainer extends React.Component {
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
 
-      <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
-      <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+      <div class="button-div">
+        <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+        <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+      </div>
       <Footer/>
     </React.Fragment>
   </Router>
