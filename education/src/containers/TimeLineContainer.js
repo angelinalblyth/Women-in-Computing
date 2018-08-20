@@ -6,7 +6,7 @@ import _ from "lodash";
 const TimeLineContainer = (props) => {
 
   if (props.match.params !== 0) {
-    let index = parseInt(props.match.params.index);
+    let index = parseInt(props.match.params.index, 10);
     let orderedList = _.orderBy(props.women, ["year"], ["asc"]);
     let womenSubList = orderedList.slice(index, index+3);
     let position = "";
