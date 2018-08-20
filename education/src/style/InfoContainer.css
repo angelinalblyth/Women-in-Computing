@@ -9,7 +9,9 @@
   transform: rotate(0);
   max-width: 100%;
   height: 180px;
-  box-shadow: 5px 5px 20px;
+  -moz-box-shadow-bottom: 4px 4px 4px black;
+  -webkit-box-shadow-bottom: 4px 4px 4px black;
+  box-shadow-bottom: 4px 4px 4px black;
   cursor: pointer;
   perspective: 100px;
   overflow: hidden;
@@ -44,8 +46,8 @@
 }
 
 /* .image_container:hover {
-  animation: hover_image_container 1s forwards;
-  background-position: center;
+animation: hover_image_container 1s forwards;
+background-position: center;
 } */
 
 .info_div {
@@ -55,6 +57,7 @@
   margin: 5px 20px;
   height: 100px;
   overflow-y: scroll;
+  background: rgba(211, 211, 211, 0.5);
 }
 
 .bottom-left {
