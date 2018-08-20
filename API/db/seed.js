@@ -23,6 +23,15 @@ db.timeline_women.insert([
     wiki:"https://en.wikipedia.org/wiki/Ada_Lovelace"
   },
   {
+   name:"Hedy Lamarr",
+   year:1941,
+   dob:1914,
+   dod:2000,
+   info:"Although better known for her Silver Screen exploits, Austrian actress Hedy Lamarr (born Hedwig Eva Maria Kiesler) also became a pioneer in the field of wireless communications following her emigration to the United States. The international beauty icon, along with co-inventor George Anthiel, developed a \"Secret Communications System\" to help combat the Nazis in World War II. By manipulating radio frequencies at irregular intervals between transmission and reception, the invention formed an unbreakable code to prevent classified messages from being intercepted by enemy personnel.",
+   image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg/440px-Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg",
+   wiki:"https://en.wikipedia.org/wiki/Hedy_Lamarr#Inventor"
+  },
+  {
     name:"Grete Hermann",
     year:1926,
     dob:1901,
@@ -59,7 +68,7 @@ db.timeline_women.insert([
     dod: null,
     info:"Wives of scientists working on the Manhattan Project with mathematical training were hired as human computers to work on the ENIAC and MANIAC I computers.[11] This included Klara Dan von Neumann, Augusta H. Teller, and Adele Goldstine.",
     contribution:"",
-    image:"https://en.wikipedia.org/wiki/Manhattan_Project#/media/File:Y12_Calutron_Operators.jpg",
+    image:"https://upload.wikimedia.org/wikipedia/commons/4/47/Y12_Calutron_Operators.jpg",
     wiki:"https://en.wikipedia.org/wiki/Calutron_Girls"
   },
   {
@@ -309,7 +318,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a lawyer who specialises in computer security and intellectual property issues. She worked at the law firm of Chickering and Gregory in San Francisco[1] and then became a partner at the law firm Baker & McKenzie[2] where she headed its IT and intellectual property group. She was a fellow of the Association for Computing Machinery and a member of its council. She was an early member of its special interest group for higher education, SIGUCCS, and was inducted into its hall of fame in 2004.[3][4] She was Chairwoman of the National Information Systems Advisory Panel in the early 1980s.",
     contribution:"co-authored Computer Abuse, a minor classic that was one of the first studies to define and document computer-related crime.",
-    image:"",
+    image:"http://files.ctctcdn.com/03908663201/011112b8-d118-4c5a-ac58-4facbe5061a8.jpg",
     wiki:"https://en.wikipedia.org/wiki/Susan_Nycum"
   },
   {
@@ -319,7 +328,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American mathematician and computer scientist.",
     contribution:"worked on the PORT portable mathematical/numerical library.",
-    image:"",
+    image:"http://history.siam.org/sup/Phyllis-Fox-by-Tom-Haigh.gif",
     wiki:"https://en.wikipedia.org/wiki/Phyllis_Fox"
   },
   {
@@ -359,7 +368,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American computer scientist and IBM Fellow, best known for her work on relational database management systems.",
     contribution:"was one of the key architects of IBM System R, and in 1979 wrote the canonical paper on relational query optimization. She was appointed an IBM Fellow in 1994, and an ACM Fellow in 2009.",
-    image:"",
+    image:"http://sysrun.haifa.il.ibm.com/ibm/history/witexhibit/images/wit_selinger_width218.jpg",
     wiki:"https://en.wikipedia.org/wiki/Patricia_Selinger"
   },
   {
@@ -369,7 +378,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a former video game designer, notable for being one of the first female designers in the video game industry. While working at Atari, Inc. in 1978, Shaw designed the unreleased Polo game[1] and designed 3-D Tic-Tac-Toe the same year,both for the Atari 2600. Shaw's official job title at Atari was Microprocessor Software Engineer.Later she joined Activision, where she programmed her best-known game, River Raid.According to the River Raid manual, she is also a 'scholar in the field of Computer Science.'",
     contribution:"was a game designer and programmer for Atari Corp. and Activision.",
-    image:"",
+    image:"https://www.mcvuk.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1400/MTUzMDY4NzkxNzgwNjE1MTc1/carol-shaw-1400png.webp",
     wiki:"https://en.wikipedia.org/wiki/Carol_Shaw"
   },
   {
@@ -379,7 +388,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is former video game designer and programmer during the early years of the Atari VCS.Along with Carol Shaw (creator of 3-D Tic-Tac-Toe and River Raid), Meninsky was one of two female engineers at Atari, Inc. to develop video game cartridges.She later became an intellectual property lawyer.",
     contribution:"was the game designer and programmer for Atari 2600 games Dodge 'Em and Warlords.",
-    image:"",
+    image:"http://introductionsnecessary.com/wp-content/uploads/2016/05/5-25-Carla-Meninsky.jpg",
     wiki:"https://en.wikipedia.org/wiki/Carla_Meninsky"
   },
   {
@@ -389,7 +398,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a computer programmer. She received her Masters in computer science from Stevens Institute of Technology in 1969. She joined Bell Labs in 1972 as an assembly language programmer, and worked there on the Unix operating system for several years.Cherry has prepared a 'pocket reference' which is commonly known as the 'Purple Card'.",
     contribution:"worked on the Writer's Workbench (wwb) for Bell Labs.",
-    image:"",
+    image:"https://www.ncwit.org/sites/default/files/styles/small/public/lorindacherry_web_0.png?itok=ArZdtAlO",
     wiki:"https://en.wikipedia.org/wiki/Lorinda_Cherry"
   },
   {
@@ -399,7 +408,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American inventor and software developer. Swanson co-developed the first of the Carmen Sandiego educational games, and founded the company Girl Tech,which creates products aimed at making technology more interesting for girls. She has developed award-winning curricula, electronic toys, and books that encourage girls to explore technology and inventions. Her toy inventions include the Snoop Stopper Keepsake Box, Me-Mail Message Center, Zap N’ Lock Journal, and Swap-It Locket. Her publications include Tech Girl's Internet Adventures, Tech Girl's Activity Book, and Girlzine: A Magazine for the Global Girl.",
     contribution:"(with others) developed the first of the Carmen Sandiego games. She went on to found Girl Tech. Girl Tech develops products and services that encourage girls to use new technologies, such as the Internet and video games.",
-    image:"",
+    image:"http://invention.si.edu/sites/default/files/inovative-lives-swanson-janese-headshot-small.jpg",
     wiki:"https://en.wikipedia.org/wiki/Janese_Swanson"
   },
   {
@@ -409,7 +418,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American video game designer, writer, and a co-founder of Sierra On-Line (later known as Sierra Entertainment), who developed her first game while living in Simi Valley, California. She is most famous for her work in the field of graphic adventure games with titles such as Mystery House, the King's Quest series, and Phantasmagoria. She is married to Ken Williams and retired from her career in 1999. Roberta Williams is one of the most influential PC game designers of the 1980s and 1990s, and has been credited with creating the graphic adventure genre.",
     contribution:"did pioneering work in graphical adventure games for personal computers, particularly the King's Quest series.",
-    image:"",
+    image:"https://vignette.wikia.nocookie.net/kingsquest/images/b/b9/RobertaWilliams.jpg/revision/latest?cb=20080110155913",
     wiki:"https://en.wikipedia.org/wiki/Roberta_Williams"
   },
   {
@@ -419,7 +428,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an artist and graphic designer who created many of the interface elements and typefaces for the Apple Macintosh in the 1980s. She was also Creative Director (and one of the original employees) at NeXT, the company formed by Steve Jobs after he left Apple in 1985.She has worked for Microsoft and IBM, and, more recently, Pinterest and Facebook.",
     contribution:"created the icons and many of the interface elements for the original Apple Macintosh in the 1980s,and was an original employee of NeXT, working as the Creative Director.",
-    image:"",
+    image:"http://blogs.plos.org/neurotribes/files/2011/11/kare.muna_.jpg",
     wiki:"https://en.wikipedia.org/wiki/Susan_Kare"
   },
   {
@@ -439,7 +448,7 @@ db.timeline_women.insert([
     dod:null,
     info:"was an early computer engineer and the first woman to become vice president of Honeywell, Inc. She was a systems thinking tutor and was the first female CIO of Honeywell.",
     contribution:"was the first Honeywell CIO.",
-    image:"",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLAMaS19Xyd12M77KJAaqY1ynKH5qeiSZrPJwDZy723BWXnD0k",
     wiki:"https://en.wikipedia.org/wiki/Irma_Wyman"
   },
   {
@@ -449,7 +458,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a professor in the Computer Science Department at Stanford, and founder of Moka5 and Omlet.",
     contribution:"receives a Ph.D. for her work on optimising compilers. She has since then performed influential research in many areas of computer science as well as co-authored a famous textbook on compilers.",
-    image:"",
+    image:"http://prog3.com/sbdm/img.ptcms/article/201509/21/55ff7f60111db.jpg",
     wiki:"https://en.wikipedia.org/wiki/Monica_S._Lam"
   },
   {
@@ -479,8 +488,8 @@ db.timeline_women.insert([
     dod:null,
     info:"",
     contribution:"professor of Computer Science at the Vrije Universiteit in Amsterdam, is one of the founder of NLnet, the first Internet service provider in the Netherlands.",
-    image:"",
-    wiki:""
+    image:"https://d1rkab7tlqy5f1.cloudfront.net/_processed_/4/8/csm_402_Frances_Brazier%5B1%5D_bf5d56ba60.jpg",
+    wiki:"https://www.tudelft.nl/en/tpm/about-the-faculty/departments/multi-actor-systems/people/professors/profdr-fm-frances-brazier/"
   },
   {
     name:"Donna Dubinsky",
@@ -489,7 +498,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American businesswoman who played an integral role in the development of personal digital assistants (PDAs) serving as CEO of Palm, Inc. and co-founding Handspring with Jeff Hawkins in 1995. Dubinsky co-founded Numenta in 2005 with Hawkins and Dileep George, based in Redwood City, CA. Numenta was founded to develop machine intelligence based on the principles of the neocortex. Dubinsky currently serves as CEO and board chair of Numenta. She served on the board of Yale University from 2006-2018, including two years as Senior Fellow. Fortune nominated her, together with Hawkins, to the Innovators Hall of Fame, while TIME named the pair as part of its Digital 50 in 1999 for their contribution to the development of the PDA.",
     contribution:"CEO and co-founder of Palm, Inc., co-founder of Handspring, co-founder of Numenta, Harvard Business School's Alumni Achievement Award winner for 'introducing the first successful personal digital assistant (PDA) and who is now developing a computer memory system modeled after the human brain.''",
-    image:"",
+    image:"https://amp.businessinsider.com/images/56b4b61c2e5265b7008b5122-750-563.jpg",
     wiki:"https://en.wikipedia.org/wiki/Donna_Dubinsky"
   },
   {
@@ -519,7 +528,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is an American computer scientist. Formerly associated with the International Computer Science Institute in Berkeley, California, she retired in 2009. She is best known for her work on Internet congestion control, and was in 2007 one of the top-ten most cited researchers in computer science.",
     contribution:"is known for her work on Transmission Control Protocol.",
-    image:"",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOn3gwsJQZwo6uL1oRFo0G1FVqHQYrBTZQ2SxDfVZIiVyxXtat_A",
     wiki:"https://en.wikipedia.org/wiki/Sally_Floyd"
   },
   {
@@ -529,8 +538,8 @@ db.timeline_women.insert([
     dod:null,
     info:"",
     contribution:"was the first female recipient of ACM's Doctoral Dissertation Award.",
-    image:"",
-    wiki:""
+    image:"http://www.dgp.toronto.edu/~tu/me.jpg",
+    wiki:"http://www.dgp.toronto.edu/~tu/"
   },
   {
     name:"Anita Borg",
@@ -549,7 +558,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a women-oriented Linux community. It was formed to provide both technical and social support for women Linux users, although men are encouraged to contribute.[1] Members of the community are referred to as 'a Linux chick' (singular) and 'LinuxChix' or 'Linux Chix' (plural) regardless of gender.",
     contribution:"an international organization for women who use Linux and women and men who want to support women in computing was founded by Deb Richardson.",
-    image:"",
+    image:"http://linuxchixar.org/assets/img/logo-linuxchixar.png",
     wiki:"https://en.wikipedia.org/wiki/LinuxChix"
   },
   {
@@ -569,7 +578,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a Professor of Computer Science at Mills College, Oakland, California, United States, and a former senior research scientist at Google.",
     contribution:"earned a PhD in Electrical Engineering and Computer Science from MIT in 1998 with the notable thesis 'ParaSite: Mining the structural information on the World-Wide Web'.",
-    image:"",
+    image:"https://imgix.ranker.com/user_node_img/47/930042/original/ellen-spertus-software-developers-photo-u1?w=280&h=280&fit=crop&crop=faces&q=50&fmt=jpg",
     wiki:"https://en.wikipedia.org/wiki/Ellen_Spertus"
   },
   {
@@ -658,7 +667,7 @@ db.timeline_women.insert([
     dod:null,
     info:"is a software engineer who has worked extensively on the Linux kernel, including serving on the Linux Foundation's Technical Advisory Board for two years.Sharp began working on the kernel in 2006 as an undergraduate at Portland State University, and later through an Intel undergraduate research grant.Sharp's contributions to the kernel include writing and acting as a maintainer for its USB 3.0 driver.Sharp stepped down from direct work on the kernel on 5 October 2015, citing the abrasive communication style and 'abusive commentary [on submitted patches]'' of the maintainer community. Sharp is also a volunteer co-coordinator of the Outreachy project,and led a team contributing to the Linux kernel for the project's June 2013 internships. Sharp won the first annual Red Hat Women in Open Source Community Award in 2015 for 'efforts in improving communications and inviting women into open source communities' and the 2016 O'Reilly Open Source Award for accomplishments in the open source community. In 2017, Sharp changed their pronouns to they/them and their first name from Sarah to Sage.",
     contribution:"is the first winner of the annual Women in Open Source Community Award, awarded by RedHat.",
-    image:"",
+    image:"https://c1.staticflickr.com/1/427/19083403420_440388e33c_b.jpg",
     wiki:"https://en.wikipedia.org/wiki/Sage_Sharp"
   },
   {
@@ -668,7 +677,7 @@ db.timeline_women.insert([
     dob: null,
     info: "the future world leaders in Software Development take part in the CodeClan 16-week Software Development Course, they will all appear on this list in the future.",
     contribution: "To be realised",
-    image:"",
+    image:"https://files.slack.com/files-pri/T0TN401HD-FCAFAHT0V/img_20180817_101601.jpg",
     wiki:"https://codeclan.com/courses/16-week-course/ "
   }
 
