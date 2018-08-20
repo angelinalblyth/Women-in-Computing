@@ -3,9 +3,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   overflow-x: auto;
-  margin: 5px;
-  margin-top: 7%;
-  /*border: solid;*/
+
+  margin: 2% 1% 2% 1%;
+  border: 1px solid black;
   height: 100%;
   /* background-image: url(../components/background_image.png); */
   background-repeat: no-repeat;

@@ -57,7 +57,7 @@ background-position: center;
   margin: 5px 20px;
   height: 100px;
   overflow-y: scroll;
-  background: rgba(211, 211, 211, 0.5);
+  /* background: rgba(211, 211, 211, 0.5); */
 }
 
 .bottom-left {
@@ -65,7 +65,9 @@ background-position: center;
   bottom: 8px;
   left: 16px;
   background: rgb(211, 211, 211); /* Fallback */
-  background: rgba(211, 211, 211, 0.5);
+  background: rgba(192, 208, 211, 0.5);
+  border: 0.5px solid black;
+  padding: 1%;
 }
 
 @keyframes hover {
