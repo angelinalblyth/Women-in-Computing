@@ -1,5 +1,5 @@
 import React from 'react';
-import "./InfoContainer.css";
+import "../style/InfoContainer.css";
 
 const InfoContainer = (props) => {
 

@@ -1,5 +1,9 @@
 h1 {
   text-align: center;
-  padding-top: 2%;
   font-family: geneva, sans-serif;
+}
+
+.header{
+  margin: 0;
+  /* border: 1px solid red; */
 }
