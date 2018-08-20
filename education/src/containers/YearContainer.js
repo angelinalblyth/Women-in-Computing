@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoContainer from './InfoContainer.js'
 import _ from "lodash";
-import "./TimeLineContainer.css";
+import "../style/TimeLineContainer.css";
 
 const YearContainer = (props) =>{
   let index = parseInt(props.match.params.year, 10);
