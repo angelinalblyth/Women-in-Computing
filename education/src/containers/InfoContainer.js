@@ -1,8 +1,4 @@
 import React from 'react';
-import InnerComponent from '../components/InnerComponent.js';
-import ImageComponent from '../components/ImageComponent.js';
-import InfoComponent from '../components/InfoComponent.js';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./InfoContainer.css";
 
 const InfoContainer = (props) => {

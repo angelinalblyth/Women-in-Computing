@@ -2,7 +2,6 @@ import React from 'react';
 import TimeLineContainer from './TimeLineContainer.js';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
-import InfoContainer from './InfoContainer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../App.css";
 import _ from "lodash";
@@ -13,6 +12,8 @@ class MainContainer extends React.Component {
     this.state = {
       women: []
     };
+    this.handleBackClick = this.handleBackClick.bind(this);
+    this.handleForwardClick = this.handleForwardClick.bind(this);
   }
 
   componentDidMount(){
@@ -22,34 +23,23 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}));
   }
 
-  handleSelectedChange(event){
-    //get back the event
-    //check the number of the key
-    //if left minus the index
-    //if right add to the index
-    console.log(event);
 
-    document.onkeydown = checkKey;
+  handleBackClick = (event) =>{
+    event.preventDefault();
+    let action = window.location.pathname.split("/").slice(-1)[0];
+    let newIndex = parseInt(action);
+    newIndex -=1
+    window.history.pushState({path:newIndex},'',newIndex);
+    window.location.reload()
+  }
 
-    function checkKey(key) {
-
-      key = key || window.event;
-      if (key.keyCode == '37') {
-        alert("left clicked");
-        // left arrow
-        //it minus the index of the url by 1
-      }
-      else if (key.keyCode == '39') {
-        alert("right clicked");
-        // right arrow
-        //it pluses the index of the url by 1
-      }
-
-      // props.match.params.index turn into int
-
-    }
-
-
+  handleForwardClick = (event) =>{
+    event.preventDefault();
+    let action = window.location.pathname.split("/").slice(-1)[0];
+    let newIndex = parseInt(action);
+    newIndex +=1
+    window.history.pushState({path:newIndex},'',newIndex);
+    window.location.reload()
   }
 
 
@@ -68,8 +58,8 @@ class MainContainer extends React.Component {
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
 
-      <button type="button" onClick="leftClickHandle">Back</button>
-      <button type="button" onClick="rightClickHandle">Forward</button>
+      <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+      <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
       <Footer/>
     </React.Fragment>
   </Router>
