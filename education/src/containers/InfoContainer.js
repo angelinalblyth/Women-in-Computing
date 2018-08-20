@@ -23,11 +23,13 @@ const InfoContainer = (props) => {
           <div className="info_div">
             <p>{props.info}</p>
             <p>{props.contribution}</p>
+            <p><a href={props.wiki}>See More</a></p>
           </div>
         </div>
       </div>
     )
   }
+
 
 
 
