@@ -19,6 +19,7 @@ class MainContainer extends React.Component {
     };
     this.handleBackClick = this.handleBackClick.bind(this);
     this.handleForwardClick = this.handleForwardClick.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
 
@@ -41,6 +42,24 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}, this.generateDropList));
   }
 
+  handleKeyPress = (e) => {
+    console.log(e);
+    document.onKeyDown = checkKey;
+
+    function checkKey(key) {
+      key = key || window.event;
+      if (key.keyCode === '37') {
+        alert("left clicked");
+       // left arrow
+       //it minus the index of the url by 1
+      }
+      else if (key.keyCode === '39') {
+        alert("right clicked");
+       // right arrow
+       //it pluses the index of the url by 1
+      }
+    }
+  }
 
   handleBackClick = (event) =>{
     event.preventDefault();
@@ -74,8 +93,10 @@ class MainContainer extends React.Component {
     event.preventDefault();
     let action = event.target.value;
     let year = parseInt(action, 10);
+    let orderedList = _.orderBy(this.state.women, ["year"], ["asc"]);
 
-    let search = _.findIndex(this.state.women, {"year": year});
+    let search = _.findIndex(orderedList, {"year": year});
+    console.log(search);
 
     window.location.href = "http://localhost:3000/timeline/" + search;
     // window.location.href = "http://localhost:3000/timeline/year/" + year;
@@ -98,9 +119,6 @@ class MainContainer extends React.Component {
             //<TimeLineContainer women={this.state.women} match={match}/>
             <Redirect push to="/timeline/0" />
             }/>
-            <Route path="/timeline" render={({match}) =>
-              <Redirect push to="/timeline/0" />
-            }/>
 
             {/* <Route path="/timeline/year/:year" render = {({match}) =>
               <YearContainer women={this.state.women} match={match}/>
@@ -109,15 +127,22 @@ class MainContainer extends React.Component {
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
 
+            <Route exact path="/timeline" render={({match}) =>
+              <Redirect push to="/timeline/0" />
+            }/>
+
 
       <div className="button-div">
         <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
         <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
+          <option key="null" value="null">Please Select a Year</option>
           {this.createSelect()}
         </select>
 
         <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+
+        <button id="hidden" type="button" onKeyDown={(e) => this.handleKeyPress(e)} style={{display: "none"}}/>
       </div>
       <Footer/>
     </React.Fragment>
