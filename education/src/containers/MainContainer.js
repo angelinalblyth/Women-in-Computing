@@ -108,13 +108,13 @@ class MainContainer extends React.Component {
       <div className="button-div">
         <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
-        <select className="select" onChange={this.onDropdownSelected}>
+        <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
           {this.createSelect()}
         </select>
 
         <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </React.Fragment>
   </Router>
 
