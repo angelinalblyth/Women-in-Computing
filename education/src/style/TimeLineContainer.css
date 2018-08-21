@@ -1,0 +1,23 @@
+.timeline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: 2% 1% 2% 1%;
+  height: 100%;
+
+  /* background-image: url(../components/background_image.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#zero_time{
+  background-image: url(../components/background_image.png);
+}
+
+#one_time{
+  background-image: url(../components/background_image_rotate.jpg);
+}
