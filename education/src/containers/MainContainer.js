@@ -114,7 +114,7 @@ class MainContainer extends React.Component {
 
         <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </React.Fragment>
   </Router>
 
