@@ -1,6 +1,6 @@
 import React from 'react';
 import TimeLineContainer from './TimeLineContainer.js';
-import YearContainer from "./YearContainer.js";
+// import YearContainer from "./YearContainer.js";
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -75,7 +75,10 @@ class MainContainer extends React.Component {
     let action = event.target.value;
     let year = parseInt(action, 10);
 
-    window.location.href = "http://localhost:3000/timeline/year/" + year;
+    let search = _.findIndex(this.state.women, {"year": year});
+
+    window.location.href = "http://localhost:3000/timeline/" + search;
+    // window.location.href = "http://localhost:3000/timeline/year/" + year;
     // let routeString = "/year/" + year;
     // this.redirect(routeString);
   }
@@ -94,9 +97,9 @@ class MainContainer extends React.Component {
             <Route exact path="/" render= {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
-            <Route path="/timeline/year/:year" render = {({match}) =>
+            {/* <Route path="/timeline/year/:year" render = {({match}) =>
               <YearContainer women={this.state.women} match={match}/>
-            }/>
+            }/> */}
             <Route path="/timeline/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
@@ -105,7 +108,7 @@ class MainContainer extends React.Component {
       <div className="button-div">
         <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
-        <select onChange={this.onDropdownSelected}>
+        <select className="select" onChange={this.onDropdownSelected}>
           {this.createSelect()}
         </select>
 
