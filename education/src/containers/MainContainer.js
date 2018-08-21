@@ -52,7 +52,7 @@ class MainContainer extends React.Component {
 
 //still working on this
 //should allow us to use left and right arrows to move through timeline
- 
+
   handleArrowPress = (event) => {
     if(event === 'left'){
       let action = window.location.pathname.split("/").slice(-1)[0];
@@ -161,22 +161,20 @@ class MainContainer extends React.Component {
               <Redirect push to="/timeline/0" />
             }/>
 
-      <div className="button-div">
-        <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+            <div className="button-div">
+          <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
-        <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
-          <option key="null" value="null">Please Select a Year</option>
-          {this.createSelect()}
-        </select>
-
-    <KeyboardEventHandler
-      handleKeys={['left', 'right']}
-      onKeyEvent={(key, e) => this.handleArrowPress(key)} />
+          <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
+            <option key="null" value="null">Please Select a Year</option>
+            {this.createSelect()}
+          </select>
+          <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
 
 
-
-
-    </div>
+          <KeyboardEventHandler
+            handleKeys={['left', 'right']}
+            onKeyEvent={(key, e) => this.handleArrowPress(key)} />
+          </div>
     <Footer/>
   </React.Fragment>
 </Router>
