@@ -57,7 +57,11 @@ class MainContainer extends React.Component {
     if(event === 'left'){
       let action = window.location.pathname.split("/").slice(-1)[0];
       let newIndex = parseInt(action, 10);
-      newIndex -=1
+      if(newIndex === 0){
+        newIndex = 0;
+      }else {
+        newIndex -=1
+      }
       window.history.pushState({path:newIndex},'',newIndex);
       window.location.reload()
     }
@@ -79,7 +83,13 @@ class MainContainer extends React.Component {
     event.preventDefault();
     let action = window.location.pathname.split("/").slice(-1)[0];
     let newIndex = parseInt(action, 10);
-    newIndex -=1
+    if(newIndex === 0){
+      newIndex = 0;
+    }else {
+      newIndex -=1
+    }
+
+
     window.history.pushState({path:newIndex},'',newIndex);
     window.location.reload()
   }
@@ -171,10 +181,12 @@ class MainContainer extends React.Component {
           <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
 
 
-          <KeyboardEventHandler
-            handleKeys={['left', 'right']}
-            onKeyEvent={(key, e) => this.handleArrowPress(key)} />
-          </div>
+
+    <KeyboardEventHandler
+      handleKeys={['left', 'right']}
+      onKeyEvent={(key, e) => this.handleArrowPress(key)} />
+    </div>
+
     <Footer/>
   </React.Fragment>
 </Router>
