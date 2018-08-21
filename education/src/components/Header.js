@@ -3,7 +3,7 @@ import '../style/header.css'
 
 const Header = (props) => (
   <div className="header">
-    <h1>Women in Tech</h1>
+    <a href="/timeline/0"><h1>Women in Tech</h1></a>
   </div>
 )
 
