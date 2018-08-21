@@ -8,6 +8,7 @@ import "../style/App.css";
 import "../style/Button.css";
 import { Redirect } from 'react-router-dom';
 import _ from "lodash";
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 
 class MainContainer extends React.Component {
@@ -19,12 +20,14 @@ class MainContainer extends React.Component {
     };
     this.handleBackClick = this.handleBackClick.bind(this);
     this.handleForwardClick = this.handleForwardClick.bind(this);
-    this.handleKeyPress = this.handleKeyPress.bind(this);
+    this.handleArrowPress = this.handleArrowPress.bind(this);
   }
+
 
 //orders the list so the logic works, years in correct order
 //loops through and adds any new year (only returns unique results)
 //puts it into the state as the drop list
+
   generateDropList(){
     let orderedList = _.orderBy(this.state.women, ["year"], ["asc"]);
     let listItems = [];
@@ -46,24 +49,24 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}, this.generateDropList));
   }
 
+
 //still working on this
 //should allow us to use left and right arrows to move through timeline
-  handleKeyPress = (e) => {
-    console.log(e);
-    document.onKeyDown = checkKey;
-
-    function checkKey(key) {
-      key = key || window.event;
-      if (key.keyCode === '37') {
-        alert("left clicked");
-       // left arrow
-       //it minus the index of the url by 1
-      }
-      else if (key.keyCode === '39') {
-        alert("right clicked");
-       // right arrow
-       //it pluses the index of the url by 1
-      }
+ 
+  handleArrowPress = (event) => {
+    if(event === 'left'){
+      let action = window.location.pathname.split("/").slice(-1)[0];
+      let newIndex = parseInt(action, 10);
+      newIndex -=1
+      window.history.pushState({path:newIndex},'',newIndex);
+      window.location.reload()
+    }
+    else if(event === 'right'){
+      let action = window.location.pathname.split("/").slice(-1)[0];
+      let newIndex = parseInt(action, 10);
+      newIndex +=1
+      window.history.pushState({path:newIndex},'',newIndex);
+      window.location.reload()
     }
   }
 
@@ -138,6 +141,7 @@ class MainContainer extends React.Component {
   render(){
     return (
 
+
         <Router>
           <React.Fragment>
             <Header/>
@@ -165,13 +169,18 @@ class MainContainer extends React.Component {
           {this.createSelect()}
         </select>
 
-        <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+    <KeyboardEventHandler
+      handleKeys={['left', 'right']}
+      onKeyEvent={(key, e) => this.handleArrowPress(key)} />
 
-        <button id="hidden" type="button" onKeyDown={(e) => this.handleKeyPress(e)} style={{display: "none"}}/>
-      </div>
-      <Footer/>
-    </React.Fragment>
-  </Router>
+
+
+
+    </div>
+    <Footer/>
+  </React.Fragment>
+</Router>
+
 
 
 
