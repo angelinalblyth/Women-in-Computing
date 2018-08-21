@@ -3,6 +3,8 @@ import "../style/InfoContainer.css";
 
 const InfoContainer = (props) => {
 
+//this is a function that allows it to go outside of React
+//when user clicks on image, they are taken to wiki
   const redirect = () => {
     window.location.href = props.wiki;
   }
