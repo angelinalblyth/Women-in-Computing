@@ -19,6 +19,7 @@ class MainContainer extends React.Component {
     };
     this.handleBackClick = this.handleBackClick.bind(this);
     this.handleForwardClick = this.handleForwardClick.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
 
@@ -41,6 +42,24 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}, this.generateDropList));
   }
 
+  handleKeyPress = (e) => {
+    console.log(e);
+    document.onKeyDown = checkKey;
+
+    function checkKey(key) {
+      key = key || window.event;
+      if (key.keyCode === '37') {
+        alert("left clicked");
+       // left arrow
+       //it minus the index of the url by 1
+      }
+      else if (key.keyCode === '39') {
+        alert("right clicked");
+       // right arrow
+       //it pluses the index of the url by 1
+      }
+    }
+  }
 
   handleBackClick = (event) =>{
     event.preventDefault();
@@ -118,6 +137,8 @@ class MainContainer extends React.Component {
         </select>
 
         <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+
+        <button id="hidden" type="button" onKeyDown={(e) => this.handleKeyPress(e)} style={{display: "none"}}/>
       </div>
       <Footer/>
     </React.Fragment>
