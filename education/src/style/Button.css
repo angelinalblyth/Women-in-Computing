@@ -1,0 +1,52 @@
+button {
+  background-color: #A4C7E8;
+  font-size: 30px;
+  padding: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 1px
+  /* border: 1px solid red; */
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25%;
+    -webkit-appearance: none;
+    font-size: 0.8em;
+}    .select select {
+      width: 100%;
+      cursor: pointer;
+      padding: 20px 15px;
+      outline: 0;
+      border: 0px solid #000000;
+      border-radius: 0px;
+      background: #DCDCDC;
+      color: #505050;
+      -webkit-appearance: none;
+  }
+      .select select::-ms-expand {
+        display: none;
+      }
+      .select select:hover,
+      .select select:focus {
+        color: #fcfafa;
+        background: #CCCCCC;
+      }
+      .select select:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+
+
+select{
+  -webkit-appearance: none;
+  text-align-last:center;
+}
