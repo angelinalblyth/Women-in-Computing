@@ -8,6 +8,7 @@ import "../style/App.css";
 import "../style/Button.css";
 import { Redirect } from 'react-router-dom';
 import _ from "lodash";
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 
 class MainContainer extends React.Component {
@@ -19,8 +20,9 @@ class MainContainer extends React.Component {
     };
     this.handleBackClick = this.handleBackClick.bind(this);
     this.handleForwardClick = this.handleForwardClick.bind(this);
-    this.handleKeyPress = this.handleKeyPress.bind(this);
+    this.handleArrowPress = this.handleArrowPress.bind(this);
   }
+
 
 
   generateDropList(){
@@ -42,24 +44,23 @@ class MainContainer extends React.Component {
     .then(women => this.setState({women}, this.generateDropList));
   }
 
-  handleKeyPress = (e) => {
-    console.log(e);
-    document.onKeyDown = checkKey;
-
-    function checkKey(key) {
-      key = key || window.event;
-      if (key.keyCode === '37') {
-        alert("left clicked");
-       // left arrow
-       //it minus the index of the url by 1
-      }
-      else if (key.keyCode === '39') {
-        alert("right clicked");
-       // right arrow
-       //it pluses the index of the url by 1
-      }
+  handleArrowPress = (event) => {
+    if(event === 'left'){
+      let action = window.location.pathname.split("/").slice(-1)[0];
+      let newIndex = parseInt(action, 10);
+      newIndex -=1
+      window.history.pushState({path:newIndex},'',newIndex);
+      window.location.reload()
+    }
+    else if(event === 'right'){
+      let action = window.location.pathname.split("/").slice(-1)[0];
+      let newIndex = parseInt(action, 10);
+      newIndex +=1
+      window.history.pushState({path:newIndex},'',newIndex);
+      window.location.reload()
     }
   }
+
 
   handleBackClick = (event) =>{
     event.preventDefault();
@@ -112,41 +113,49 @@ class MainContainer extends React.Component {
   render(){
     return (
 
-        <Router>
-          <React.Fragment>
-            <Header/>
-            <Route exact path="/" render= {({match}) =>
-            //<TimeLineContainer women={this.state.women} match={match}/>
-            <Redirect push to="/timeline/0" />
-            }/>
-
-            {/* <Route path="/timeline/year/:year" render = {({match}) =>
-              <YearContainer women={this.state.women} match={match}/>
-            }/> */}
-            <Route path="/timeline/:index" render = {({match}) =>
-              <TimeLineContainer women={this.state.women} match={match}/>
-            }/>
-
-            <Route exact path="/timeline" render={({match}) =>
-              <Redirect push to="/timeline/0" />
-            }/>
 
 
-      <div className="button-div">
-        <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+      <Router>
+        <React.Fragment>
+          <Header/>
+          <Route exact path="/" render= {({match}) =>
+          //<TimeLineContainer women={this.state.women} match={match}/>
+          <Redirect push to="/timeline/0" />
+        }/>
 
-        <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
-          <option key="null" value="null">Please Select a Year</option>
-          {this.createSelect()}
-        </select>
+        {/* <Route path="/timeline/year/:year" render = {({match}) =>
+        <YearContainer women={this.state.women} match={match}/>
+      }/> */}
+      <Route path="/timeline/:index" render = {({match}) =>
+      <TimeLineContainer women={this.state.women} match={match}/>
+    }/>
 
-        <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+    <Route exact path="/timeline" render={({match}) =>
+    <Redirect push to="/timeline/0" />
+  }/>
 
-        <button id="hidden" type="button" onKeyDown={(e) => this.handleKeyPress(e)} style={{display: "none"}}/>
-      </div>
-      <Footer/>
-    </React.Fragment>
-  </Router>
+
+  <div className="button-div">
+    <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
+
+    <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
+      <option key="null" value="null">Please Select a Year</option>
+      {this.createSelect()}
+    </select>
+    <button id="forward" type="button" onClick={this.handleForwardClick}> &raquo; </button>
+
+
+    <KeyboardEventHandler
+      handleKeys={['left', 'right']}
+      onKeyEvent={(key, e) => this.handleArrowPress(key)} />
+
+
+
+
+    </div>
+    <Footer/>
+  </React.Fragment>
+</Router>
 
 
 
