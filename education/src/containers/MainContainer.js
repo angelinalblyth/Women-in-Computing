@@ -6,7 +6,7 @@ import Footer from '../components/Footer.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "../style/App.css";
 import "../style/Button.css";
-// import { Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import _ from "lodash";
 
 
@@ -94,12 +94,16 @@ class MainContainer extends React.Component {
         <Router>
           <React.Fragment>
             <Header/>
+
             <Route exact path="/" render= {({match}) =>
-              <TimeLineContainer women={this.state.women} match={match}/>
+            //<TimeLineContainer women={this.state.women} match={match}/>
+              <Redirect push to="/timeline/0" />
             }/>
+
             {/* <Route path="/timeline/year/:year" render = {({match}) =>
               <YearContainer women={this.state.women} match={match}/>
             }/> */}
+
             <Route path="/timeline/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
             }/>
