@@ -117,15 +117,16 @@ class MainContainer extends React.Component {
             //<TimeLineContainer women={this.state.women} match={match}/>
             <Redirect push to="/timeline/0" />
             }/>
-            <Route path="/timeline" render={({match}) =>
-              <Redirect push to="/timeline/0" />
-            }/>
 
             {/* <Route path="/timeline/year/:year" render = {({match}) =>
               <YearContainer women={this.state.women} match={match}/>
             }/> */}
             <Route path="/timeline/:index" render = {({match}) =>
               <TimeLineContainer women={this.state.women} match={match}/>
+            }/>
+
+            <Route exact path="/timeline" render={({match}) =>
+              <Redirect push to="/timeline/0" />
             }/>
 
 
