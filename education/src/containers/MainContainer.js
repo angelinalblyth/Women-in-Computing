@@ -93,8 +93,10 @@ class MainContainer extends React.Component {
     event.preventDefault();
     let action = event.target.value;
     let year = parseInt(action, 10);
+    let orderedList = _.orderBy(this.state.women, ["year"], ["asc"]);
 
-    let search = _.findIndex(this.state.women, {"year": year});
+    let search = _.findIndex(orderedList, {"year": year});
+    console.log(search);
 
     window.location.href = "http://localhost:3000/timeline/" + search;
     // window.location.href = "http://localhost:3000/timeline/year/" + year;
@@ -134,6 +136,7 @@ class MainContainer extends React.Component {
         <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
         <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
+          <option key="null" value="null">Please Select a Year</option>
           {this.createSelect()}
         </select>
 
