@@ -61,7 +61,7 @@ class MainContainer extends React.Component {
       if(newIndex === 0){
         newIndex = 0;
       }else {
-        newIndex -=1
+        newIndex -=1;
       }
       window.history.pushState({path:newIndex},'',newIndex);
       window.location.reload()
@@ -70,7 +70,7 @@ class MainContainer extends React.Component {
       let action = window.location.pathname.split("/").slice(-1)[0];
       let newIndex = parseInt(action, 10);
       if(newIndex === this.state.women.length - 1){
-        newIndex === this.state.women.length -1
+        newIndex = this.state.women.length -1;
       }else{
         newIndex +=1
       }
@@ -104,7 +104,7 @@ class MainContainer extends React.Component {
     let action = window.location.pathname.split("/").slice(-1)[0];
     let newIndex = parseInt(action, 10);
       if(newIndex === this.state.women.length - 1){
-        newIndex === this.state.women.length -1
+        newIndex = this.state.women.length -1;
       }else{
         newIndex +=1
       }
