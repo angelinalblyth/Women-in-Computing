@@ -9,6 +9,7 @@ import "../style/Button.css";
 import { Redirect } from 'react-router-dom';
 import _ from "lodash";
 import KeyboardEventHandler from 'react-keyboard-event-handler';
+import "../style/MainContainer.css"
 
 
 class MainContainer extends React.Component {
@@ -182,7 +183,7 @@ class MainContainer extends React.Component {
     <div className="button-div">
       <button id="back" type="button" onClick={this.handleBackClick}> &laquo; </button>
 
-      <select className="select" onChange={this.onDropdownSelected} style={{fontSize: 20}}>
+      <select className="select" onChange={this.onDropdownSelected}>
         <option key="null" value="null">Please Select a Year</option>
         {this.createSelect()}
       </select>
