@@ -677,7 +677,7 @@ db.timeline_women.insert([
     dob: null,
     info: "the future world leaders in Software Development take part in the CodeClan 16-week Software Development Course, they will all appear on this list in the future.",
     contribution: "To be realised",
-    image:"https://files.slack.com/files-pri/T0TN401HD-FCAFAHT0V/img_20180817_101601.jpg",
+    image:"https://imgur.com/uHIFklm",
     wiki:"https://codeclan.com/courses/16-week-course/ "
   }
 
