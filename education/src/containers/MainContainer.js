@@ -96,7 +96,7 @@ class MainContainer extends React.Component {
 
 
     window.history.pushState({path:newIndex},'',newIndex);
-    window.location.reload()
+    window.location.reload();
   }
 
   handleForwardClick = (event) =>{
@@ -109,7 +109,7 @@ class MainContainer extends React.Component {
         newIndex +=1
       }
       window.history.pushState({path:newIndex},'',newIndex);
-      window.location.reload()
+      window.location.reload();
     }
 
     //this uses the map function to create a new array of select options
@@ -143,6 +143,8 @@ class MainContainer extends React.Component {
       console.log(search);
 
       window.location.href = "http://localhost:3000/timeline/" + search;
+      localStorage.setItem('year', this.state.women[0].year);
+
       // window.location.href = "http://localhost:3000/timeline/year/" + year;
       // let routeString = "/year/" + year;
       // this.redirect(routeString);
